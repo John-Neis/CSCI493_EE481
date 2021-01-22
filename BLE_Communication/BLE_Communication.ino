@@ -26,11 +26,12 @@ void setup() {
   Serial.begin(9600);
 
   // Ensure Serial port is ready
-  while(!Serial);
+  //while(!Serial);
 
   //Prepare LED
   pinMode(LED_BUILTIN, OUTPUT);
   pinMode(LED_PIN, OUTPUT);
+  pinMode(A0, OUTPUT);
   //pinMode(LEDR, OUTPUT);
   //pinMode(LEDG, OUTPUT);
 
@@ -139,10 +140,12 @@ void connectedLight()
 {
   digitalWrite(LED_BUILTIN, HIGH);
   digitalWrite(LED_PIN, HIGH);
+  digitalWrite(A0, LOW);
 }
 
 void disconnectedLight()
 {
   digitalWrite(LED_BUILTIN, LOW);
   digitalWrite(LED_PIN, LOW);
+  digitalWrite(A0, HIGH);
 }
