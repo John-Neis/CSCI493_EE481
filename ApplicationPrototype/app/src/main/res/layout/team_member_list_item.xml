@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/team_member_pic"
+        android:layout_marginRight="10dp"
+        android:paddingRight="10dp"
+        android:contentDescription="desc"
+        android:background="@color/lightBlueGray"
+        android:src="@drawable/ic_action_single_person_profile" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/team_member_name"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/team_member_pic"
+        android:fontFamily="casual"
+        android:text="filler text name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/team_member_role"
+        android:fontFamily="monospace"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/team_member_name"
+        android:layout_toRightOf="@id/team_member_pic"
+        android:text="filler role"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        />
+
+
+</RelativeLayout>
