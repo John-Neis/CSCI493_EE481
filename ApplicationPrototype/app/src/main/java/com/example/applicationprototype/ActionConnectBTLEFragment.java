@@ -2,6 +2,8 @@ package com.example.applicationprototype;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
+import android.bluetooth.BluetoothManager;
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -28,6 +30,8 @@ public class ActionConnectBTLEFragment extends Fragment {
     private TextView bt_device_name;
     private ListView bt_device_list;
     private BluetoothAdapter BA;
+    /*private final BluetoothManager BM =
+            (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);*/
     private Set<BluetoothDevice> pairedDevices;
     private String tag = "DEBUG - CONNECT BTLE FRAGMENT -";
     private Button connect_btn;
@@ -102,6 +106,7 @@ public class ActionConnectBTLEFragment extends Fragment {
     }
     private void listDevices() {
         pairedDevices = BA.getBondedDevices();
+
 //        ArrayList list = new ArrayList();
         ArrayList<HashMap<String, String>> list = new ArrayList<HashMap<String, String>>();
         HashMap<String, String> device_info;

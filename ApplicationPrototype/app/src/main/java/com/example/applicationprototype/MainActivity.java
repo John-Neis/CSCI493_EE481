@@ -10,6 +10,8 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothManager;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -19,6 +21,9 @@ import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     BluetoothAdapter bluetoothAdapter;
+
+    final BluetoothManager bluetoothManager =
+            (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
 
     boolean BTLE_device_connected = false;
     private String TAG = "MAIN ACTIVITY : DEBUG: ";
