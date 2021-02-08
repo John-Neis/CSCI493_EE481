@@ -25,12 +25,19 @@ public class AboutTeamFragment extends Fragment {
             R.drawable.ic_action_single_person_profile};
 
     String [] teamMemberRoles = {"Application Software","Embedded/Application Software","Electrical & Hardware",
-    "Electrical & Hardware", "Embedded Software"};
+    "Embedded Software", "Electrical & Hardware"};
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.about_team_fragment,container,false);
+        /*Initialize the list view containing team members names, pictures, and roles*/
+        init_list_view_items(view);
+
+        return view;
+    }
+
+    private void init_list_view_items(View view) {
         listView = view.findViewById(R.id.team_members_lv);
         CustomAdapter customAdapter = new CustomAdapter();
         listView.setAdapter(customAdapter);
@@ -40,8 +47,6 @@ public class AboutTeamFragment extends Fragment {
 //                Intent intent = new Intent(this, TeamMemberBioActivity.class);
             }
         });
-
-        return view;
     }
 
     private class CustomAdapter extends BaseAdapter {

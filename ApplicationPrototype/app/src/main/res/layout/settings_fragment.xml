@@ -4,14 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/DarkGray">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Settings Activity"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        android:layout_centerInParent="true">
+    android:background="@color/DarkGray"
+    android:layout_marginTop="@dimen/action_bar_vertical_height">
 
-    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/toggle_bt_enable_disable"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/enable_bluetooth"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+
+    </LinearLayout>
 </RelativeLayout>

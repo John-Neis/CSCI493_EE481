@@ -24,4 +24,8 @@
     <string name="device_status_label">Device Status</string>
     <string name="select_grip_label">Grip Commands</string>
     <string name="select_asl_sign_label">ASL Commands</string>
+    <string name="connected">connected</string>
+    <string name="disconnected">disconnected</string>
+    <string name="no_data">no data found</string>
+    <string name="enable_bluetooth">Enable Bluetooth</string>
 </resources>

@@ -25,6 +25,7 @@ import java.util.HashMap;
 import java.util.Set;
 
 public class ActionConnectBTLEFragment extends Fragment {
+    private AppDataSingleton shared_data;
     private CheckBox bt_enable;
     private Button bt_search;
     private TextView bt_device_name;
@@ -41,6 +42,7 @@ public class ActionConnectBTLEFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.action_connect_bt_device_fragment,container,false);
+        shared_data = AppDataSingleton.getInstance();
 //        bt_enable = view.findViewById(R.id.bt_enabled_cb);
         bt_search = view.findViewById(R.id.bt_search);
         bt_device_name = view.findViewById(R.id.bt_device_name);
@@ -64,40 +66,18 @@ public class ActionConnectBTLEFragment extends Fragment {
             Log.d(tag, "bluetooth not support");
             return view;
         }
-//        //If BA is enabled then we can continue with searching for devices.
-//        if (BA.isEnabled()) {
-//            //set the enable BT
-//            bt_enable.setChecked(true);
-//            bt_enable.setText("Bluetooth Enabled");
-//            Toast.makeText(getContext(), "Bluetooth Is Enabled", Toast.LENGTH_SHORT).show();
-//            Log.d(tag, "bluetooth is enabled");
-//        }
-
-//        //set a listener for the check box that enables/disables BT
-//        bt_enable.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-//            @Override
-//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-//                //If check box is deselected
-//                if (!isChecked) {
-//                    BA.disable();
-//                    bt_enable.setText("Enable Bluetooth");
-//                    Toast.makeText(getContext(), "Bluetooth Turned Off", Toast.LENGTH_SHORT).show();
-//                }
-//                //If check box is selected
-//                else {
-//                    //request permission from user to turn on bluetooth
-//                    Intent intentOn = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
-//                    startActivityForResult(intentOn, 0);
-//                    bt_enable.setText("Bluetooth Enabled");
-//                    Toast.makeText(getContext(), "Bluetooth Turned On", Toast.LENGTH_SHORT).show();
-//                }
-//            }
-//        });
 
         bt_search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                listDevices();
+                if(shared_data.is_device_bluetooth_enabled() == true) {
+                    Log.d(tag, "BT ENABLED: " + String.valueOf(shared_data.is_device_bluetooth_enabled()));
+                    listDevices();
+                }
+                else{
+                    Log.d(tag, "BT ENABLED: " + String.valueOf(shared_data.is_device_bluetooth_enabled()));
+                    Toast.makeText(getContext(), "Bluetooth Not Enabled", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 

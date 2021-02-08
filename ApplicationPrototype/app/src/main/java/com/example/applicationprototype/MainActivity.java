@@ -7,12 +7,12 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentActivity;
-import androidx.lifecycle.ViewModelProviders;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -20,15 +20,14 @@ import com.google.android.material.navigation.NavigationView;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-    BluetoothAdapter bluetoothAdapter;
+    private AppDataSingleton shared_data;
+    private BluetoothAdapter bluetoothAdapter;
+    private BluetoothManager bluetoothManager;
+    private boolean device_bt_enabled = false;
+    private BTStateBroadcastReceiver bt_state_update_receiver;
 
-    final BluetoothManager bluetoothManager =
-            (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
-
-    boolean BTLE_device_connected = false;
     private String TAG = "MAIN ACTIVITY : DEBUG: ";
     private int REQUEST_ENABLE_BT = 1;
-    private BluetoothAdapter BA;
 
     private Toolbar toolbar;
     private DrawerLayout drawerLayout;
@@ -39,7 +38,63 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        /* Starting content view? */
         setContentView(R.layout.activity_main);
+
+        init_bluetooth_shared_data();
+
+        init_nav_drawer_menu(savedInstanceState);
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        registerReceiver(bt_state_update_receiver, new IntentFilter(BluetoothAdapter.ACTION_STATE_CHANGED));
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        unregisterReceiver(bt_state_update_receiver);
+    }
+
+    private void init_bluetooth_shared_data() {
+        /*
+            Initialize the shared data singleton in the main Activity on create method
+            So that the singleton is set before any other activities/fragments run
+        */
+        AppDataSingleton.initAppDataSingleton();
+        /* Set the shared data singleton to the currently created instance*/
+        shared_data = AppDataSingleton.getInstance();
+        /*create the bluetooth manager */
+        bluetoothManager = (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
+        /*store the bluetooth manager in the shared data singleton*/
+        shared_data.setBluetooth_manager(bluetoothManager);
+        /* create the bluetooth adapter for the device */
+        bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+        /*store the bluetooth manager in the shared data singleton*/
+        shared_data.setBluetooth_adapter(bluetoothAdapter);
+
+        /*
+            store the default as false until we figure out how to check if a btle device is already
+            connected.
+         */
+        shared_data.set_btle_device_connected(false);
+        /*
+            initially check if the devices bluetooth is enabled and initialize the data in the shared
+            object
+        */
+        if(bluetoothAdapter.isEnabled()){
+            device_bt_enabled = true;
+            shared_data.set_device_bluetooth_enabled(true);
+        }
+
+        bt_state_update_receiver = new BTStateBroadcastReceiver(getApplicationContext());
+    }
+
+    private void init_nav_drawer_menu(Bundle savedInstanceState) {
 
         //Create custom toolbar to open drawer nav menu
         toolbar = findViewById(R.id.app_main_toolbar);
@@ -70,16 +125,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
             startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
         }
-
-
-//        BTLE_Device connected_device = new BTLE_Device();
-        //Creates a shared model that will be used to share data between
-        //fragments
-        SharedViewAppData appData = ViewModelProviders.of(this).
-                get(SharedViewAppData.class);
-
-
-
     }
 
     @Override//function that allows the back button to close the navigation drawer
