@@ -20,9 +20,9 @@ public class AboutTeamFragment extends Fragment {
     String [] teamMemberNames = {"Sam Dressler","Jack Neis","Megan Larson",
                                     "Daryl Johnson","Jasmyn Loven"};
 
-    int [] profilePics = {R.drawable.sam_profile_pic,R.drawable.ic_action_single_person_profile,
-            R.drawable.ic_action_single_person_profile, R.drawable.ic_action_single_person_profile,
-            R.drawable.ic_action_single_person_profile};
+    int [] profilePics = {R.drawable.sam_profile_pic,R.drawable.jack_profile_pic,
+            R.drawable.megan_profile_pic, R.drawable.daryl_profile_pic,
+            R.drawable.jasmyn_profile_pic};
 
     String [] teamMemberRoles = {"Application Software","Embedded/Application Software","Electrical & Hardware",
     "Embedded Software", "Electrical & Hardware"};
@@ -41,6 +41,7 @@ public class AboutTeamFragment extends Fragment {
         listView = view.findViewById(R.id.team_members_lv);
         CustomAdapter customAdapter = new CustomAdapter();
         listView.setAdapter(customAdapter);
+        listView.setEnabled(false);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

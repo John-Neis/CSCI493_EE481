@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">PHP Partner App Prototype</string>
-    <string name="version">Version 0.4</string>
+    <string name="version">Version 0.5</string>
     <string name="device_pairing">Device Pairing</string>
     <string name="pre_made_grips">Grips</string>
     <string name="asl">ASL Signs</string>

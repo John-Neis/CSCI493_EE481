@@ -54,7 +54,6 @@ public class SettingsFragment extends Fragment {
         Log.d(tag, "In Init Settings Method");
         /* set the default check state and activate the check box listener */
         init_bt_toggle_enable_disable(view);
-
     }
     public void init_bt_toggle_enable_disable(View view){
         BA = shared_data.getBluetooth_adapter();
