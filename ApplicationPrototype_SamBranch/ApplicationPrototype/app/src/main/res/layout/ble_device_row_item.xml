@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/device_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:textSize="20sp"
+        android:textColor="@color/DarkBlueGray"
+        android:text="Filler Device Name"
+        />
+    <TextView
+        android:id="@+id/device_address_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/DarkBlueGray"
+        android:text="Filler Device Address"
+        />
+</LinearLayout>
