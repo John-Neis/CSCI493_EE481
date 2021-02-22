@@ -9,9 +9,9 @@
                     android:icon="@drawable/ic_action_nav_menu_device_status"
                     android:title="@string/device_status" />
                 <item
-                    android:id="@+id/nav_menu_bt_connection"
+                    android:id="@+id/nav_menu_connect_bt_device"
                     android:icon="@drawable/ic_action_nav_menu_bt_connection"
-                    android:title="@string/device_pairing" />
+                    android:title="@string/connect_device_label"/>
                 <item
                     android:id="@+id/nav_menu_grips"
                     android:icon="@drawable/ic_action_nav_menu_grips"
@@ -20,10 +20,6 @@
                     android:id="@+id/nav_menu_ASL"
                     android:icon="@drawable/ic_action_nav_menu_asl"
                     android:title="@string/asl" />
-                <item
-                    android:id="@+id/nav_menu_connect_bt_device"
-                    android:icon="@drawable/ic_action_nav_menu_bt_connection"
-                    android:title="@string/connect_device_label"/>
             </menu>
         </item>
         <item android:title="About">

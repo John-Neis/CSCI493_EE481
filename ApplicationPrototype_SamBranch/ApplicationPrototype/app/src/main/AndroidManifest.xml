@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.applicationprototype">
-
-
+    package="com.bluetooth.php">
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -19,21 +17,11 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.example.applicationprototype.Bluetooth.PeripheralControlActivity"
+            android:name="com.bluetooth.php.ui.MainActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait">
-        </activity>
-        <activity
-            android:name="com.example.applicationprototype.Actions.ActionConnectBTLEDeviceActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity
-            android:name="com.example.applicationprototype.Main.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,6 +29,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.bluetooth.php.actions.ActionConnectBTLEDeviceActivity">
+        </activity>
+
+        <activity
+            android:name="com.bluetooth.php.ui.PeripheralControlActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <service
+            android:name="com.bluetooth.php.bluetooth.BleAdapterService"
+            android:enabled="true" />
+
     </application>
 
 </manifest>
