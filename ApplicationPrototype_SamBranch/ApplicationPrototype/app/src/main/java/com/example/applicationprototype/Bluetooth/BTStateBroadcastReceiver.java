@@ -1,4 +1,4 @@
-package Bluetooth;
+package com.example.applicationprototype.Bluetooth;
 
 import android.bluetooth.BluetoothAdapter;
 import android.content.BroadcastReceiver;
@@ -6,7 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-import Util.AppDataSingleton;
+import com.example.applicationprototype.Util.AppDataSingleton;
 
 public class BTStateBroadcastReceiver extends BroadcastReceiver {
     private Context activity_context;

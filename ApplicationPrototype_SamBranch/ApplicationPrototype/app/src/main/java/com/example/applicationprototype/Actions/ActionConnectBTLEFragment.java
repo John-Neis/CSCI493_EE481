@@ -1,4 +1,4 @@
-package Actions;
+package com.example.applicationprototype.Actions;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -29,11 +29,11 @@ import androidx.annotation.RequiresApi;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 
-import Bluetooth.BTStateBroadcastReceiver;
-import Bluetooth.BleScanner;
-import Bluetooth.PeripheralControlActivity;
-import Bluetooth.ScanResultsConsumer;
-import Util.AppDataSingleton;
+import com.example.applicationprototype.Bluetooth.BTStateBroadcastReceiver;
+import com.example.applicationprototype.Bluetooth.BleScanner;
+import com.example.applicationprototype.Bluetooth.PeripheralControlActivity;
+import com.example.applicationprototype.Bluetooth.ScanResultsConsumer;
+import com.example.applicationprototype.Util.AppDataSingleton;
 import com.example.applicationprototype.R;
 
 import java.util.ArrayList;

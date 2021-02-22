@@ -1,4 +1,4 @@
-package Bluetooth;
+package com.example.applicationprototype.Bluetooth;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothManager;
@@ -18,7 +18,7 @@ import androidx.annotation.RequiresApi;
 import java.util.ArrayList;
 import java.util.List;
 
-import Util.AppDataSingleton;
+import com.example.applicationprototype.Util.AppDataSingleton;
 
 @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 public class BleScanner {
@@ -45,12 +45,12 @@ public class BleScanner {
         Log.d(TAG, "Bluetooth is ON");
     }
 
-    public void startScanning(final ScanResultsConsumer scanResultsConsumer, long delay){
+    public void startScanning(final ScanResultsConsumer scanResultsConsumer, long duration){
             if(isScanning){
                 Log.d(TAG, "Scan Already In Progress");
                 return;
             }
-
+            Log.d(TAG, "Scanning...");
             if(bleScanner == null){
                 bleScanner = bluetoothAdapter.getBluetoothLeScanner();
                 Log.d(TAG, "Created BLuetoothScanner Object");
@@ -62,7 +62,7 @@ public class BleScanner {
                     bleScanner.stopScan(scanCallback);
                     setIsScanning(false);
                 }
-            },delay);
+            },duration);
 
             this.scanResultsConsumer = scanResultsConsumer;
 
@@ -73,7 +73,7 @@ public class BleScanner {
                                 .build();
             setIsScanning(true);
             bleScanner.startScan(filters, sSettings, scanCallback);
-            Log.d(TAG, "Scanning...");
+
     }
 
     public void stopScanning(){

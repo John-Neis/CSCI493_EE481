@@ -1,4 +1,4 @@
-package Actions;
+package com.example.applicationprototype.Actions;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,11 +11,11 @@ import androidx.fragment.app.Fragment;
 
 import com.example.applicationprototype.R;
 
-public class ActionDeviceStatusFragment extends Fragment {
+public class ActionSelectGripFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-       View view = inflater.inflate(R.layout.action_device_status_fragment,container,false);
+        View view = inflater.inflate(R.layout.action_select_grip_fragment,container,false);
         return view;
     }
 }

@@ -1,4 +1,4 @@
-package Actions;
+package com.example.applicationprototype.Actions;
 
 import android.Manifest;
 import android.annotation.TargetApi;
@@ -34,11 +34,11 @@ import com.example.applicationprototype.R;
 
 import java.util.ArrayList;
 
-import Bluetooth.BleScanner;
-import Bluetooth.PeripheralControlActivity;
-import Bluetooth.ScanResultsConsumer;
+import com.example.applicationprototype.Bluetooth.BleScanner;
+import com.example.applicationprototype.Bluetooth.PeripheralControlActivity;
+import com.example.applicationprototype.Bluetooth.ScanResultsConsumer;
 
-@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+@RequiresApi(api = Build.VERSION_CODES.M)
 public class ActionConnectBTLEDeviceActivity extends AppCompatActivity implements ScanResultsConsumer {
     private boolean isBleScanning = false;
     private ListAdapter bleDeviceListAdapter;

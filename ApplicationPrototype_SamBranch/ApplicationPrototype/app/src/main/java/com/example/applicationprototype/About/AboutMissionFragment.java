@@ -1,4 +1,4 @@
-package Actions;
+package com.example.applicationprototype.About;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,11 +11,10 @@ import androidx.fragment.app.Fragment;
 
 import com.example.applicationprototype.R;
 
-public class ActionSelectGripFragment extends Fragment {
+public class AboutMissionFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.action_select_grip_fragment,container,false);
-        return view;
+        return inflater.inflate(R.layout.about_mission_fragment,container,false);
     }
 }

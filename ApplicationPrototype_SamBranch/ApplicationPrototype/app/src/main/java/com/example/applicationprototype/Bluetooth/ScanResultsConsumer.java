@@ -1,4 +1,4 @@
-package Bluetooth;
+package com.example.applicationprototype.Bluetooth;
 
 import android.bluetooth.BluetoothDevice;
 

@@ -1,4 +1,4 @@
-package Util;
+package com.example.applicationprototype.Util;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothManager;
@@ -7,7 +7,7 @@ import android.bluetooth.le.ScanSettings;
 
 import androidx.lifecycle.ViewModel;
 
-import Bluetooth.BTStateBroadcastReceiver;
+import com.example.applicationprototype.Bluetooth.BTStateBroadcastReceiver;
 
 //Singleton Class that is used to share certain data throughout the entire application.
 public class AppDataSingleton extends ViewModel {

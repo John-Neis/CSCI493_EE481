@@ -1,4 +1,4 @@
-package Main;
+package com.example.applicationprototype.Main;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -16,19 +16,19 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import Actions.ActionConnectBTLEDeviceActivity;
-import Util.AppDataSingleton;
+import com.example.applicationprototype.Actions.ActionConnectBTLEDeviceActivity;
+import com.example.applicationprototype.Util.AppDataSingleton;
 import com.example.applicationprototype.R;
-import Util.SettingsFragment;
+import com.example.applicationprototype.Util.SettingsFragment;
 import com.google.android.material.navigation.NavigationView;
 
-import About.AboutMissionFragment;
-import About.AboutTeamFragment;
-import Actions.ActionDeviceStatusFragment;
-import Actions.ActionSelectASLSignFragment;
-import Actions.ActionSelectGripFragment;
-import Actions.ActionConnectBTLEFragment;
-import Bluetooth.BTStateBroadcastReceiver;
+import com.example.applicationprototype.About.AboutMissionFragment;
+import com.example.applicationprototype.About.AboutTeamFragment;
+import com.example.applicationprototype.Actions.ActionDeviceStatusFragment;
+import com.example.applicationprototype.Actions.ActionSelectASLSignFragment;
+import com.example.applicationprototype.Actions.ActionSelectGripFragment;
+import com.example.applicationprototype.Actions.ActionConnectBTLEFragment;
+import com.example.applicationprototype.Bluetooth.BTStateBroadcastReceiver;
 
 @TargetApi(value = 23)
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {

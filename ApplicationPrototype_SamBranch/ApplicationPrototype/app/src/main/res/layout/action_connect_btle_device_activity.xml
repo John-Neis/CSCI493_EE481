@@ -14,11 +14,10 @@
         android:id="@+id/bt_device_name"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:gravity="left"
         android:text="BT Device Name"
         android:textColor="@color/DarkBlueGray"
         android:textSize="20sp"
-        android:textStyle="bold"
         android:layout_marginTop="5dp" />
     <ListView
         android:id="@+id/bt_device_list"
