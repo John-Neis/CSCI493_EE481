@@ -10,7 +10,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -26,23 +25,23 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.bluetooth.php.Constants;
+import com.bluetooth.php.util.Constants;
 import com.bluetooth.php.R;
 import com.bluetooth.php.bluetooth.BleScanner;
 import com.bluetooth.php.bluetooth.ScanResultsConsumer;
 import com.bluetooth.php.ui.PeripheralControlActivity;
+import com.bluetooth.php.util.AppDataSingleton;
 
 import java.util.ArrayList;
 
 
 public class ActionConnectBTLEDeviceActivity extends AppCompatActivity implements ScanResultsConsumer {
-
+    private AppDataSingleton shared_data;
     private boolean isBleScanning = false;
     private Handler handler = new Handler();
     private ListAdapter bleDeviceListAdapter;
     private BleScanner bleScanner;
     private TextView deviceName;
-    private static final long SCAN_TIMEOUT = 5000;
     private static final int REQUEST_LOCATION = 0;
     private static String[] PERMISSIONS_LOCATION = {Manifest.permission.ACCESS_COARSE_LOCATION};
     private boolean permissions_granted=false;
@@ -57,6 +56,7 @@ public class ActionConnectBTLEDeviceActivity extends AppCompatActivity implement
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        shared_data = AppDataSingleton.getInstance();
         setContentView(R.layout.action_connect_btle_device_activity);
 
         setButtonText();
@@ -203,10 +203,10 @@ public class ActionConnectBTLEDeviceActivity extends AppCompatActivity implement
         public View getView(int i, View view, ViewGroup viewGroup) {
             ViewHolder viewHolder;
             if (view == null) {
-                view = ActionConnectBTLEDeviceActivity.this.getLayoutInflater().inflate(R.layout.list_row, null);
+                view = ActionConnectBTLEDeviceActivity.this.getLayoutInflater().inflate(R.layout.ble_device_row_entry, null);
                 viewHolder = new ViewHolder();
-                viewHolder.deviceName = (TextView) view.findViewById(R.id.textView);
-                viewHolder.deviceAddress = (TextView) view.findViewById(R.id.bdaddr);
+                viewHolder.deviceName = (TextView) view.findViewById(R.id.deviceName);
+                viewHolder.deviceAddress = (TextView) view.findViewById(R.id.deviceAddress);
                 view.setTag(viewHolder);
             } else {
                 viewHolder = (ViewHolder) view.getTag();
@@ -257,7 +257,7 @@ public class ActionConnectBTLEDeviceActivity extends AppCompatActivity implement
                 }
             });
             simpleToast(Constants.SCANNING,2000);
-            bleScanner.startScanning(this, SCAN_TIMEOUT);
+            bleScanner.startScanning(this);
         } else {
             Log.i(Constants.TAG, "Permission to perform Bluetooth scanning was not yet granted");
         }

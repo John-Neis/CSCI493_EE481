@@ -4,7 +4,7 @@ import android.content.res.AssetFileDescriptor;
 import android.media.MediaPlayer;
 import android.util.Log;
 
-import com.bluetooth.php.Constants;
+import com.bluetooth.php.util.Constants;
 
 import java.io.IOException;
 

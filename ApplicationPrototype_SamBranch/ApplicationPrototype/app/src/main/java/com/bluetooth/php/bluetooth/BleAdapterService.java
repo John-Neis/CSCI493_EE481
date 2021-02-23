@@ -19,7 +19,7 @@ import android.os.IBinder;
 import android.os.Message;
 import android.util.Log;
 
-import com.bluetooth.php.Constants;
+import com.bluetooth.php.util.Constants;
 
 import java.util.List;
 import java.util.UUID;

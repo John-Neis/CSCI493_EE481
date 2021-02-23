@@ -19,7 +19,7 @@ import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import com.bluetooth.php.Constants;
+import com.bluetooth.php.util.Constants;
 import com.bluetooth.php.R;
 import com.bluetooth.php.audio.AlarmManager;
 import com.bluetooth.php.bluetooth.BleAdapterService;

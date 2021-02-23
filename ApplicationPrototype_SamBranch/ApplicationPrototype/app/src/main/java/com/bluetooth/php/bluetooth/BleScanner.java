@@ -12,28 +12,36 @@ import android.content.Intent;
 import android.os.Handler;
 import android.util.Log;
 
-import com.bluetooth.php.Constants;
+import com.bluetooth.php.util.AppDataSingleton;
+import com.bluetooth.php.util.Constants;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class BleScanner {
+    private AppDataSingleton shared_data;
     private BluetoothLeScanner scanner = null;
-    private BluetoothAdapter bluetooth_adapter = null;
+    private BluetoothAdapter bluetoothAdapter = null;
     private Handler handler = new Handler();
     private ScanResultsConsumer scan_results_consumer;
     private Context context;
     private boolean scanning = false;
     private String device_name_start = "";
+    private int scan_duration = 0;
 
     public BleScanner(Context context) {
         this.context = context;
-
+        shared_data = AppDataSingleton.getInstance();
         final BluetoothManager bluetoothManager = (BluetoothManager) context.getSystemService(Context.BLUETOOTH_SERVICE);
-        bluetooth_adapter = bluetoothManager.getAdapter();
-
+        bluetoothAdapter = bluetoothManager.getAdapter();
+        if(bluetoothAdapter.isEnabled() && shared_data.is_device_bluetooth_enabled()){
+            shared_data.set_device_bluetooth_enabled(true);
+        }
+        if(!bluetoothAdapter.isEnabled() && shared_data.is_device_bluetooth_enabled()){
+            shared_data.set_device_bluetooth_enabled(false);
+        }
         // check bluetooth is available and on
-        if (bluetooth_adapter == null || !bluetooth_adapter.isEnabled()) {
+        if (bluetoothAdapter == null || !bluetoothAdapter.isEnabled()) {
             Log.d(Constants.TAG, "Bluetooth is NOT switched on");
             Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
             enableBtIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -43,14 +51,15 @@ public class BleScanner {
     }
 
 
-    public void startScanning(final ScanResultsConsumer scan_results_consumer, long stop_after_ms) {
+    public void startScanning(final ScanResultsConsumer scan_results_consumer) {
+        int stop_after_ms = shared_data.getScanDuration();
         if (scanning) {
             Log.d(Constants.TAG, "Already scanning so ignoring startScanning request");
             return;
         }
         Log.d(Constants.TAG, "Scanning...");
         if (scanner == null) {
-            scanner = bluetooth_adapter.getBluetoothLeScanner();
+            scanner = bluetoothAdapter.getBluetoothLeScanner();
             Log.d(Constants.TAG, "Created BluetoothScanner object");
         }
         handler.postDelayed(new Runnable() {

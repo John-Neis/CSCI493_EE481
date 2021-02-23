@@ -19,6 +19,7 @@ public class AppDataSingleton extends ViewModel {
     private boolean device_bluetooth_enabled;
     private BTStateBroadcastReceiver btStateUpdateReceiver;
     private String deviceName;
+    private int scanDuration = Constants.DEFAULT_SCAN_DURATION;
 
     //constructor is private since this is a singleton class
     private AppDataSingleton() {
@@ -29,6 +30,12 @@ public class AppDataSingleton extends ViewModel {
     }
     public static AppDataSingleton getInstance(){
         return instance;
+    }
+    public void setScanDuration(int duration){
+        this.scanDuration = duration;
+    }
+    public int getScanDuration(){
+        return scanDuration;
     }
     public BluetoothAdapter getBluetooth_adapter() {
         return bluetooth_adapter;

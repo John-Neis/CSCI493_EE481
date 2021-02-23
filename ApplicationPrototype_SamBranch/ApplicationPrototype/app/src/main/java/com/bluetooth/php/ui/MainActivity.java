@@ -15,7 +15,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentActivity;
 
-import com.bluetooth.php.Constants;
+import com.bluetooth.php.util.Constants;
 import com.bluetooth.php.about.AboutMissionFragment;
 import com.bluetooth.php.about.AboutTeamFragment;
 import com.bluetooth.php.actions.ActionConnectBTLEDeviceActivity;
@@ -59,7 +59,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public void initBleSharedData(){
         BA = BluetoothAdapter.getDefaultAdapter();
         shared_data.setBluetoothAdapter(BA);
-
         bt_state_update_receiver = new BTStateBroadcastReceiver(this);
         shared_data.setBtStateUpdateReceiver(bt_state_update_receiver);
         shared_data.set_device_bluetooth_enabled(BA.isEnabled());

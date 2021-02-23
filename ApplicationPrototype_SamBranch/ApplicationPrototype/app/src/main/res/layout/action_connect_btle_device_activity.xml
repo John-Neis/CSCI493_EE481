@@ -18,12 +18,13 @@
         android:text="BT Device Name"
         android:textColor="@color/DarkBlueGray"
         android:textSize="20sp"
-        android:layout_marginTop="5dp" />
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"/>
     <ListView
         android:id="@+id/bt_device_list"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:paddingLeft="20dip"
+        android:paddingLeft="10dp"
         android:layout_weight="1"/>
     <Button
         android:id="@+id/bt_scan"
