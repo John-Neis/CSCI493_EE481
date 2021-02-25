@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">PHP Partner App Prototype</string>
-    <string name="version">Version 0.5</string>
+    <string name="version">Version 0.7 alpha</string>
     <string name="device_pairing">Device Pairing</string>
     <string name="pre_made_grips">Grips</string>
     <string name="asl">ASL Signs</string>
@@ -31,5 +31,11 @@
     <string name="screen_title_main">Device List</string>
     <string name="action_settings">Settings</string>
     <string name="connect_device_label">Connect Device</string>
+    <string name="status_label">Status</string>
+    <string name="home_label">Home</string>
+    <string name="grips_label">Grips</string>
+    <string name="asl_label">ASL</string>
+    <string name="bluetooth_device_scanning_label">Bluetooth Device Scanning</string>
+    <string name="help_label">Help</string>
 
 </resources>

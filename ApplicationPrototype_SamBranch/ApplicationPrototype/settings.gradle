@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "BDSK"
+rootProject.name = "PHP"

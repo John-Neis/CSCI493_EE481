@@ -1,0 +1,61 @@
+com/bluetooth/php/ui/actions/HomeFragment.java
+ com.bluetooth.php.ui.actions.HomeFragment
+com/bluetooth/php/audio/AlarmManager.java
+ com.bluetooth.php.audio.AlarmManager
+ com.bluetooth.php.audio.AlarmManager$1
+com/bluetooth/php/util/Constants.java
+ com.bluetooth.php.util.Constants
+com/bluetooth/php/ui/PeripheralControlActivity.java
+ com.bluetooth.php.ui.PeripheralControlActivity
+ com.bluetooth.php.ui.PeripheralControlActivity$1
+ com.bluetooth.php.ui.PeripheralControlActivity$2
+ com.bluetooth.php.ui.PeripheralControlActivity$3
+ com.bluetooth.php.ui.PeripheralControlActivity$4
+ com.bluetooth.php.ui.PeripheralControlActivity$5
+ com.bluetooth.php.ui.PeripheralControlActivity$6
+ com.bluetooth.php.ui.PeripheralControlActivity$7
+ com.bluetooth.php.ui.PeripheralControlActivity$8
+com/bluetooth/php/ui/about/AboutTeamFragment.java
+ com.bluetooth.php.ui.about.AboutTeamFragment
+ com.bluetooth.php.ui.about.AboutTeamFragment$1
+ com.bluetooth.php.ui.about.AboutTeamFragment$CustomAdapter
+com/bluetooth/php/bluetooth/ScanResultsConsumer.java
+ com.bluetooth.php.bluetooth.ScanResultsConsumer
+com/bluetooth/php/bluetooth/BleScanner.java
+ com.bluetooth.php.bluetooth.BleScanner
+ com.bluetooth.php.bluetooth.BleScanner$1
+ com.bluetooth.php.bluetooth.BleScanner$2
+com/bluetooth/php/ui/actions/ActionSelectASLSignFragment.java
+ com.bluetooth.php.ui.actions.ActionSelectASLSignFragment
+com/bluetooth/php/util/AppDataSingleton.java
+ com.bluetooth.php.util.AppDataSingleton
+com/bluetooth/php/bluetooth/BTStateBroadcastReceiver.java
+ com.bluetooth.php.bluetooth.BTStateBroadcastReceiver
+com/bluetooth/php/ui/actions/ActionDeviceStatusFragment.java
+ com.bluetooth.php.ui.actions.ActionDeviceStatusFragment
+com/bluetooth/php/ui/actions/ActionSelectGripFragment.java
+ com.bluetooth.php.ui.actions.ActionSelectGripFragment
+com/bluetooth/php/BuildConfig.java
+ com.bluetooth.php.BuildConfig
+com/bluetooth/php/ui/about/AboutMissionFragment.java
+ com.bluetooth.php.ui.about.AboutMissionFragment
+com/bluetooth/php/bluetooth/BleAdapterService.java
+ com.bluetooth.php.bluetooth.BleAdapterService
+ com.bluetooth.php.bluetooth.BleAdapterService$1
+ com.bluetooth.php.bluetooth.BleAdapterService$LocalBinder
+com/bluetooth/php/ui/SettingsActivity.java
+ com.bluetooth.php.ui.SettingsActivity
+ com.bluetooth.php.ui.SettingsActivity$1
+com/bluetooth/php/ui/ConnectBTLEDeviceActivity.java
+ com.bluetooth.php.ui.ConnectBTLEDeviceActivity
+ com.bluetooth.php.ui.ConnectBTLEDeviceActivity$1
+ com.bluetooth.php.ui.ConnectBTLEDeviceActivity$2
+ com.bluetooth.php.ui.ConnectBTLEDeviceActivity$3
+ com.bluetooth.php.ui.ConnectBTLEDeviceActivity$4
+ com.bluetooth.php.ui.ConnectBTLEDeviceActivity$5
+ com.bluetooth.php.ui.ConnectBTLEDeviceActivity$ListAdapter
+ com.bluetooth.php.ui.ConnectBTLEDeviceActivity$ViewHolder
+com/bluetooth/php/ui/DeviceActionsActivity.java
+ com.bluetooth.php.ui.DeviceActionsActivity
+com/bluetooth/php/ui/MainActivity.java
+ com.bluetooth.php.ui.MainActivity

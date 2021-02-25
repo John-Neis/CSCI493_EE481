@@ -1,11 +1,14 @@
 package com.bluetooth.php.ui;
 
+import android.annotation.SuppressLint;
+import android.app.ActivityOptions;
 import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.animation.AnimationSet;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -15,30 +18,28 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentActivity;
 
+import com.bluetooth.php.ui.actions.HomeFragment;
 import com.bluetooth.php.util.Constants;
-import com.bluetooth.php.about.AboutMissionFragment;
-import com.bluetooth.php.about.AboutTeamFragment;
-import com.bluetooth.php.actions.ActionConnectBTLEDeviceActivity;
-import com.bluetooth.php.actions.ActionDeviceStatusFragment;
-import com.bluetooth.php.actions.ActionSelectASLSignFragment;
-import com.bluetooth.php.actions.ActionSelectGripFragment;
+import com.bluetooth.php.ui.about.AboutMissionFragment;
+import com.bluetooth.php.ui.about.AboutTeamFragment;
+import com.bluetooth.php.ui.actions.ActionDeviceStatusFragment;
 import com.bluetooth.php.bluetooth.BTStateBroadcastReceiver;
 import com.bluetooth.php.R;
 import com.bluetooth.php.util.AppDataSingleton;
-import com.bluetooth.php.util.SettingsFragment;
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.snackbar.BaseTransientBottomBar;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private AppDataSingleton shared_data;
     private BluetoothAdapter BA;
     private BTStateBroadcastReceiver bt_state_update_receiver;
     private int REQUEST_ENABLE_BT = 1;
-
+    private Intent intent;
     private Toolbar toolbar;
+    private androidx.appcompat.app.ActionBar actionBar;
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
     private ActionBarDrawerToggle actionBarDrawerToggle;
-    private androidx.appcompat.app.ActionBar actionBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,13 +95,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawerLayout.addDrawerListener(actionBarDrawerToggle);
         actionBarDrawerToggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_nav_menu_container, new ActionDeviceStatusFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_nav_menu_container, new HomeFragment()).commit();
 
         if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_nav_menu_container, new ActionDeviceStatusFragment()).commit();
-            navigationView.setCheckedItem(R.id.nav_menu_device_status);
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_nav_menu_container, new HomeFragment()).commit();
             actionBar = getSupportActionBar();
-            actionBar.setTitle(R.string.device_status_label);
+            actionBar.setTitle(R.string.home_label);
         }
         // Handle Bluetooth
         // Ensures Bluetooth is available on the device and it is enabled. If not,
@@ -122,38 +122,25 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     //This event listener changes the context to the desired fragment depending what the user
     //has selected from the nav menu
+    @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         FragmentActivity fragmentActivity = this;
         switch (item.getItemId()) {
-            case R.id.nav_menu_device_status:
+            case R.id.nav_menu_home:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragment_nav_menu_container, new ActionDeviceStatusFragment()).commit();
-                actionBar=getSupportActionBar();
-                actionBar.setTitle(R.string.device_status_label);
+                        .replace(R.id.fragment_nav_menu_container, new HomeFragment()).commit();
+                actionBar = getSupportActionBar();
+                actionBar.setTitle(R.string.home_label);
                 break;
             case R.id.nav_menu_connect_bt_device:
-                Intent intent = new Intent(this, ActionConnectBTLEDeviceActivity.class);
+                intent = new Intent(this, ConnectBTLEDeviceActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_from_left, R.anim.slide_out_to_right);
                 break;
-//            case R.id.nav_menu_bt_connection:
-//                getSupportFragmentManager().beginTransaction()
-//                        .replace(R.id.fragment_nav_menu_container, new ActionConnectBTLEFragment()).commit();
-//                actionBar = getSupportActionBar();
-////                Intent intent = new Intent(this, BTLE_Device_List_Activity);
-//                actionBar.setTitle(R.string.bt_connect_a_device_label);
-//                break;
-            case R.id.nav_menu_grips:
-                getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragment_nav_menu_container, new ActionSelectGripFragment()).commit();
-                actionBar=getSupportActionBar();
-                actionBar.setTitle(R.string.select_grip_label);
-                break;
-            case R.id.nav_menu_ASL:
-                getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragment_nav_menu_container, new ActionSelectASLSignFragment()).commit();
-                actionBar=getSupportActionBar();
-                actionBar.setTitle(R.string.select_asl_sign_label);
+            case R.id.test:
+                intent = new Intent(this, DeviceActionsActivity.class);
+                startActivity(intent);
                 break;
             case R.id.nav_menu_about_team:
                 getSupportFragmentManager().beginTransaction()
@@ -168,12 +155,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 actionBar.setTitle(R.string.about_mission_label);
                 break;
             case R.id.nav_menu_settings:
-                getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragment_nav_menu_container, new SettingsFragment()).commit();
-                actionBar = getSupportActionBar();
-                actionBar.setTitle(R.string.settings_label);
-//                Intent intent = new Intent(this, SettingsActivity.class);
-//                startActivity(intent);
+//                getSupportFragmentManager().beginTransaction()
+//                        .replace(R.id.fragment_nav_menu_container, new SettingsActivity()).commit();
+//                actionBar = getSupportActionBar();
+//                actionBar.setTitle(R.string.settings_label);
+                Intent intent = new Intent(this, SettingsActivity.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_from_left, R.anim.slide_out_to_right);
                 break;
             default:
                 break;
