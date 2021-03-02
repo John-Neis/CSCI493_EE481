@@ -23,7 +23,8 @@
 
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL_content"
         android:layout_marginTop="@dimen/action_bar_vertical_height"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin">
@@ -37,12 +38,42 @@
             android:textSize="20sp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/functionallity_limnitation_note"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Note: This application will only work with PHP Controller Devices."
+            android:textColor="@color/lightBlueGray"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"/>
         <ListView
             android:id="@+id/bt_device_list"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:paddingLeft="10dp"
             android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL_scan_button"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        >
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scanning_progress_bar"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            />
         <com.google.android.material.button.MaterialButton
             android:id="@+id/bt_scan"
             android:layout_width="match_parent"

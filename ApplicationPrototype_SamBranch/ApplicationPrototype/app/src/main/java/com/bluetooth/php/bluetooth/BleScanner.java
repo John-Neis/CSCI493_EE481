@@ -12,6 +12,7 @@ import android.content.Intent;
 import android.os.Handler;
 import android.util.Log;
 
+import com.bluetooth.php.ui.ConnectBTLEDeviceActivity;
 import com.bluetooth.php.util.AppDataSingleton;
 import com.bluetooth.php.util.Constants;
 
@@ -72,13 +73,21 @@ public class BleScanner {
                 }
             }
         }, stop_after_ms);
-
         this.scan_results_consumer = scan_results_consumer;
+        ScanSettings settings = new ScanSettings.Builder()
+                                    .setScanMode(ScanSettings.SCAN_MODE_LOW_LATENCY)
+                                    .build();
         List<ScanFilter> filters;
         filters = new ArrayList<ScanFilter>();
-//        ScanFilter filter = new ScanFilter.Builder().setDeviceName("BDSK").build();
-//        filters.add(filter);
-        ScanSettings settings = new ScanSettings.Builder().setScanMode(ScanSettings.SCAN_MODE_LOW_LATENCY).build();
+        if(shared_data.areFiltersEnabled()) {
+            Log.d(Constants.TAG, "Starting Scan with Filters");
+            ScanFilter filter = new ScanFilter.Builder().setDeviceName("PHP Controller").build();
+            filters.add(filter);
+        }
+        else{
+            Log.d(Constants.TAG, "Starting Scan without filters");
+        }
+
         setScanning(true);
         scanner.startScan(filters, settings, scan_callback);
     }

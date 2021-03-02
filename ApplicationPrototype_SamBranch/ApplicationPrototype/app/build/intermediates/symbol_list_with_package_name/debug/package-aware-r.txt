@@ -1783,11 +1783,14 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
-id LL_0
-id LL_1
-id LL_2
-id LL_3
-id LL_4
+id LL_action_bar
+id LL_bluetooth_enabled_switch
+id LL_bluetooth_filters_enabled_switch
+id LL_content
+id LL_current_scan_duration
+id LL_save_settings_button
+id LL_scan_button
+id LL_set_scan_duration
 id META
 id NO_DEBUG
 id SHIFT
@@ -1984,6 +1987,7 @@ id forever
 id fragment_bot_nav_container
 id fragment_container_view_tag
 id fragment_nav_menu_container
+id functionallity_limnitation_note
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2122,6 +2126,8 @@ id postLayout
 id progress_circular
 id progress_horizontal
 id projectDescriptionText
+id prospective_device_address
+id prospective_device_name
 id radio
 id ratio
 id rectangle
@@ -2140,6 +2146,7 @@ id save_overlay_view
 id sawtooth
 id scale
 id scanDurationInput
+id scanning_progress_bar
 id screen
 id scroll
 id scrollIndicatorDown
@@ -2211,7 +2218,6 @@ id team_members_lv
 id team_number_tv
 id temperatureLabel
 id temperatureValue
-id test
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -2238,6 +2244,7 @@ id titleDividerNoCustom
 id title_template
 id toggle
 id toggle_bt_enable_disable
+id toggle_bt_filters
 id top
 id topPanel
 id touch_outside
@@ -2258,7 +2265,6 @@ id view_offset_helper
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
-id welcome_text
 id withText
 id withinBounds
 id wrap
@@ -2475,9 +2481,14 @@ string clear_text_end_icon_content_description
 string closeNavDrawer
 string connect_device_label
 string connected
+string connected_device_address_filler_layout
+string connected_device_name_filler_layout
+string device_address_label
+string device_name_label
+string device_name_title
 string device_pairing
-string device_status
 string device_status_label
+string device_status_title
 string disconnected
 string enable_bluetooth
 string error_icon_content_description
@@ -2490,6 +2501,8 @@ string hide_bottom_view_on_scroll_behavior
 string home_label
 string icon_content_description
 string instruction_1_label
+string instruction_2_label
+string instruction_3_label
 string item_view_role_description
 string material_clock_display_divider
 string material_clock_toggle_content_description
@@ -2548,6 +2561,7 @@ string nav_header_group_name
 string nav_header_subtitle
 string nav_header_title
 string no_data
+string not_connected_label
 string openNavDrawer
 string password_toggle_content_description
 string path_password_eye

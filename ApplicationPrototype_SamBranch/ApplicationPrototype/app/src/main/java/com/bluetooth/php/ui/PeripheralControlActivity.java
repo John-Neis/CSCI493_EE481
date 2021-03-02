@@ -30,7 +30,7 @@ import java.util.TimerTask;
 
 public class PeripheralControlActivity extends Activity {
     public static final String EXTRA_NAME = "name";
-    public static final String EXTRA_ID = "id";
+    public static final String EXTRA_ADDRESS = "id";
 
     private String device_name;
     private String device_address;
@@ -322,7 +322,7 @@ public class PeripheralControlActivity extends Activity {
         // read intent data
         final Intent intent = getIntent();
         device_name = intent.getStringExtra(EXTRA_NAME);
-        device_address = intent.getStringExtra(EXTRA_ID);
+        device_address = intent.getStringExtra(EXTRA_ADDRESS);
 
         // show the device name
         ((TextView) this.findViewById(R.id.nameTextView))

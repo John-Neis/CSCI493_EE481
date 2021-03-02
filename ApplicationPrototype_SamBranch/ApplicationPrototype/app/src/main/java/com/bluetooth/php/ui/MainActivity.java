@@ -46,8 +46,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         /* Starting content view? */
         setContentView(R.layout.activity_main);
-        //Initialize the shared data object
-        AppDataSingleton.initAppDataSingleton();
+//        AppDataSingleton.initAppDataSingleton();
         shared_data = AppDataSingleton.getInstance();
 
         //Initialize certain bluetooth classes
@@ -136,12 +135,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_menu_connect_bt_device:
                 intent = new Intent(this, ConnectBTLEDeviceActivity.class);
                 startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_from_left, R.anim.slide_out_to_right);
+                overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
                 break;
-            case R.id.test:
-                intent = new Intent(this, DeviceActionsActivity.class);
-                startActivity(intent);
-                break;
+//            case R.id.test:
+//                intent = new Intent(this, DeviceActionsActivity.class);
+//                startActivity(intent);
+//                break;
             case R.id.nav_menu_about_team:
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.fragment_nav_menu_container, new AboutTeamFragment()).commit();
@@ -161,7 +160,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 //                actionBar.setTitle(R.string.settings_label);
                 Intent intent = new Intent(this, SettingsActivity.class);
                 startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_from_left, R.anim.slide_out_to_right);
+                overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
                 break;
             default:
                 break;

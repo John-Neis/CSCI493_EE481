@@ -10,7 +10,7 @@
       <LinearLayout
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:id="@+id/LL_0">
+          android:id="@+id/LL_action_bar">
                 <com.google.android.material.appbar.AppBarLayout
                     android:id="@+id/app_bar_layout"
                     android:layout_width="match_parent"
@@ -28,11 +28,11 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/LL_0"
+            android:layout_below="@id/LL_action_bar"
             android:orientation="horizontal"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
-            android:id="@+id/LL_1">
+            android:id="@+id/LL_bluetooth_enabled_switch">
 
             <com.google.android.material.switchmaterial.SwitchMaterial
                 android:id="@+id/toggle_bt_enable_disable"
@@ -49,13 +49,35 @@
                 android:layout_marginRight="@dimen/activity_vertical_margin"/>
 
         </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LL_bluetooth_enabled_switch"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/LL_bluetooth_filters_enabled_switch">
 
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/toggle_bt_filters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/DarkBlueGray"
+            app:useMaterialThemeColors="true"
+            android:textSize="18sp"
+            android:gravity="left|center"
+            android:textOn="Filters Enabled"
+            android:textOff="@string/enable_bluetooth"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"/>
+
+    </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:id="@+id/LL_2"
-            android:layout_below="@id/LL_1"
+            android:id="@+id/LL_set_scan_duration"
+            android:layout_below="@id/LL_bluetooth_filters_enabled_switch"
             android:layout_marginBottom="10dp">
             <TextView
                 android:layout_width="wrap_content"
@@ -78,7 +100,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/activity_vertical_margin"
                     android:backgroundTint="@color/white"
-                    android:hint="Duration"
+                    android:hint="Duration (ms)"
                     android:textColorHint="@color/teal_700"
                     android:inputType="number"
                     android:gravity="right"
@@ -91,17 +113,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/LL_3"
-        android:layout_below="@id/LL_2"
+        android:id="@+id/LL_save_settings_button"
+        android:layout_below="@id/LL_set_scan_duration"
         android:orientation="horizontal"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:layout_marginBottom="10dp">
+        android:layout_marginTop="10dp"
+        android:gravity="right">
         <Button
             android:id="@+id/saveDataBtn"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="Save Changes"
-            android:backgroundTint="@color/DarkBlueGray"
+            android:backgroundTint="@color/teal_700"
             android:layout_marginLeft="@dimen/activity_vertical_margin"
             android:layout_marginRight="@dimen/activity_vertical_margin"
             android:onClick="saveData"/>
@@ -110,8 +132,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/LL_3"
-        android:id="@+id/LL_4"
+        android:layout_below="@id/LL_save_settings_button"
+        android:id="@+id/LL_current_scan_duration"
         android:orientation="horizontal"
         android:layout_marginTop="@dimen/activity_horizontal_margin">
 

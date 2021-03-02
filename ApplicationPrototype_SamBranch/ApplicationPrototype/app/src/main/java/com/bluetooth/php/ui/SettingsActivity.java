@@ -25,12 +25,14 @@ import com.google.android.material.textfield.TextInputLayout;
 
 public class SettingsActivity extends AppCompatActivity implements CompoundButton.OnCheckedChangeListener{
     private SwitchMaterial toggle_bt_enable_disable;
+    private SwitchMaterial toggle_bt_filters_enable_disable;
     private BluetoothAdapter BA;
     private String tag = "Settings Fragment DEBUG : ";
-    private AppDataSingleton shared_data;
+    private AppDataSingleton shared_data = AppDataSingleton.getInstance();
     private TextInputLayout scanDurationLayout;
     private TextView currentScanDuration;
     private Button saveData;
+    private boolean filtersEnabled = false;
     Toolbar toolbar;
     private int duration= 0;
     private int tempDuration = 0;
@@ -40,7 +42,6 @@ public class SettingsActivity extends AppCompatActivity implements CompoundButto
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
         /* Get the shared data singleton that will be used for any data needed in different activities */
-        shared_data = AppDataSingleton.getInstance();
         toolbar = this.findViewById(R.id.app_main_toolbar);
         toolbar.setTitle(R.string.settings_label);
         setSupportActionBar(toolbar);
@@ -65,6 +66,7 @@ public class SettingsActivity extends AppCompatActivity implements CompoundButto
         Log.d(tag, "In Init Settings Method");
         /* set the default check state and activate the check box listener */
         init_bt_toggle_enable_disable();
+        init_scan_filters_toggle();
         init_scan_duration();
         saveData = this.findViewById(R.id.saveDataBtn);
         scanDurationLayout = this.findViewById(R.id.scanDurationInput);
@@ -72,6 +74,24 @@ public class SettingsActivity extends AppCompatActivity implements CompoundButto
         {@Override
             public void onClick(View v) {saveData(v);}
         });
+    }
+    private void init_scan_filters_toggle(){
+        filtersEnabled = shared_data.areFiltersEnabled();
+        Log.d(Constants.TAG, "Filters Enabled: " + filtersEnabled);
+        toggle_bt_filters_enable_disable = findViewById(R.id.toggle_bt_filters);
+        if(filtersEnabled == true){
+            toggle_bt_filters_enable_disable.setChecked(true);
+            toggle_bt_filters_enable_disable.setText("Filters Enabled");
+            shared_data.setFiltersEnabled(true);
+            Log.d(tag, "Filters are enabled");
+        }
+        else{
+            toggle_bt_filters_enable_disable.setChecked(false);
+            toggle_bt_filters_enable_disable.setText("Enable Filters");
+            shared_data.setFiltersEnabled(false);
+            Log.d(tag, "Filters are disabled");
+        }
+        toggle_bt_filters_enable_disable.setOnCheckedChangeListener(this::onCheckedChanged);
     }
     private void closeKeyboard(){
         View view = this.getCurrentFocus();
@@ -95,13 +115,16 @@ public class SettingsActivity extends AppCompatActivity implements CompoundButto
             }
             if (tempDuration > 10000 || tempDuration < 1000) {
                 scanDurationLayout.setError("Duration must be between 1000 and 10000 ms");
-                Log.d(Constants.TAG, "Duration outside valid range. Must be between 1000 and 10000ms");
+                Log.d(Constants.TAG, "Duration outside valid range. Must be between 1000 and 10000 ms");
                 return false;
             }
             return true;
         }
         else{
             closeKeyboard();
+            if(scanDurationLayout.isErrorEnabled()){
+                scanDurationLayout.setError("Nothing to Save. Enter a value between 1000 and 10000 ms");
+            }
             Toast.makeText(this, "Nothing to Save", Toast.LENGTH_SHORT).show();
             Log.d(Constants.TAG, "No Settings Have Changed");
             return false;
@@ -158,12 +181,33 @@ public class SettingsActivity extends AppCompatActivity implements CompoundButto
                 Log.d(tag, "In on checked changed listener for bt enable disable");
                 toggleBtEnableDisable(buttonView, isChecked);
                 break;
+            case R.id.toggle_bt_filters:
+                Log.d(tag, "In on checked changed listener for scan filter enable disable");
+                toggleBtFiltersEnableDisable(buttonView, isChecked);
+                break;
             default:
 
                 break;
         }
     }
-
+    private void toggleBtFiltersEnableDisable(CompoundButton buttonView, boolean isChecked){
+        //If switch is deselected
+        if(!isChecked){
+            shared_data.setFiltersEnabled(false);
+            Log.d(Constants.TAG, "1.Filters enable disable set: " + shared_data.areFiltersEnabled());
+            toggle_bt_filters_enable_disable.setText("Enable Filters");
+            toggle_bt_filters_enable_disable.setChecked(false);
+            Toast.makeText(this, "Device Filters Disabled", Toast.LENGTH_SHORT).show();
+        }
+        //If switch is selected
+        else{
+            shared_data.setFiltersEnabled(true);
+            Log.d(Constants.TAG, "2.Filters enable disable set: " + shared_data.areFiltersEnabled());
+            toggle_bt_filters_enable_disable.setText("Filters Enabled");
+            toggle_bt_filters_enable_disable.setChecked(true);
+            Toast.makeText(this, "Device Filters Enabled", Toast.LENGTH_SHORT).show();
+        }
+    }
     private void toggleBtEnableDisable(CompoundButton buttonView, boolean isChecked) {
         //If check box is deselected
         if (!isChecked) {

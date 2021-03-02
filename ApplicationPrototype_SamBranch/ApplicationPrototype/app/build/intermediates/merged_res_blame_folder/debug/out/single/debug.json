@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_nav_menu_bt_connection.png.flat",
-        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nav_menu_bt_connection.png"
-    },
-    {
         "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_nav_menu_asl.png.flat",
         "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_nav_menu_asl.png"
+    },
+    {
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_nav_menu_bt_connection.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nav_menu_bt_connection.png"
     },
     {
         "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_up_to_center.xml.flat",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_in_from_right.xml"
     },
     {
-        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\fragments\\layout\\fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_team_member_list_item.xml.flat",
         "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\util_layouts\\layout\\team_member_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\fragments\\layout\\fragment_home.xml"
     },
     {
         "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_settings.png.flat",
@@ -100,12 +100,12 @@
         "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\jack_profile_pic.jpg"
     },
     {
-        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_scan.png.flat",
-        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_scan.png"
-    },
-    {
         "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_bot_nav_device_status.png.flat",
         "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_bot_nav_device_status.png"
+    },
+    {
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_scan.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_scan.png"
     },
     {
         "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -116,16 +116,16 @@
         "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\activities\\layout\\activity_device_actions.xml"
     },
     {
-        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_nav_menu_mission.png.flat",
-        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_nav_menu_mission.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_device_status.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_device_status.png"
     },
     {
         "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_to_right.xml.flat",
         "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_out_to_right.xml"
     },
     {
-        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_device_status.png.flat",
-        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_device_status.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_nav_menu_mission.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_nav_menu_mission.png"
     },
     {
         "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_bot_nav_asl.png.flat",
@@ -484,12 +484,12 @@
         "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_nav_menu_group.png.flat",
-        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_nav_menu_group.png"
-    },
-    {
         "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_nav_menu_mission.png.flat",
         "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nav_menu_mission.png"
+    },
+    {
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_nav_menu_group.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_nav_menu_group.png"
     },
     {
         "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_bot_nav_grips.png.flat",

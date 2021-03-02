@@ -3,23 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:id="@+id/welcome_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="How To Use This App"
-        android:textSize="30sp"
-        android:textColor="@color/DarkBlueGray"
-        android:gravity="center">
-    </TextView>
     <ScrollView
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/welcome_text">
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -27,23 +20,28 @@
                 android:textSize="25sp"
                 android:textColor="@color/black"
                 android:layout_marginLeft="10dp"
-                />
+                android:layout_marginBottom="5dp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/instruction_1_label"
                 android:textSize="20sp"
                 android:layout_marginLeft="@dimen/activity_vertical_margin"
-                android:layout_marginRight="@dimen/activity_vertical_margin"
-                />
+                android:layout_marginRight="@dimen/activity_vertical_margin" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="2. Select an option from the list of menu items. "
+                android:text="@string/instruction_2_label"
                 android:textSize="20sp"
                 android:layout_marginLeft="@dimen/activity_vertical_margin"
-                android:layout_marginRight="@dimen/activity_vertical_margin"
-                />
+                android:layout_marginRight="@dimen/activity_vertical_margin" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/instruction_3_label"
+                android:textSize="20sp"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin" />
         </LinearLayout>
 
     </ScrollView>

@@ -30,9 +30,9 @@
             </item>
         <item android:title="@string/version"
             android:enabled="false"/>
-        <item
-            android:id="@+id/test"
-            android:icon="@drawable/ic_test_icon"
-            android:title="TEST DEVICE CONTROL ACTIVITY"/>
+<!--        <item-->
+<!--            android:id="@+id/test"-->
+<!--            android:icon="@drawable/ic_test_icon"-->
+<!--            android:title="TEST DEVICE CONTROL ACTIVITY"/>-->
     </group>
 </menu>

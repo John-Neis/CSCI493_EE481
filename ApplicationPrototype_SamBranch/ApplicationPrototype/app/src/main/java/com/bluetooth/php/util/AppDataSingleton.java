@@ -4,6 +4,7 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothManager;
 import android.bluetooth.le.ScanFilter;
 import android.bluetooth.le.ScanSettings;
+import android.util.Log;
 
 import androidx.lifecycle.ViewModel;
 
@@ -11,29 +12,53 @@ import com.bluetooth.php.bluetooth.BTStateBroadcastReceiver;
 
 //Singleton Class that is used to share certain data throughout the entire application.
 public class AppDataSingleton extends ViewModel {
-    private static AppDataSingleton instance;
+    private static final AppDataSingleton instance = new AppDataSingleton();
     private ScanSettings scanSettings;
     private ScanFilter scanFilter;
     private BluetoothAdapter bluetooth_adapter;
-    private BluetoothManager bluetooth_manager;
     private boolean device_bluetooth_enabled;
     private BTStateBroadcastReceiver btStateUpdateReceiver;
     private String deviceName;
     private int scanDuration = Constants.DEFAULT_SCAN_DURATION;
+    private String prospectiveDeviceName;
+    private boolean filtersEnabled = Constants.DEFAULT_FILTER_SETTING;
+
+    public boolean areFiltersEnabled(){
+        return filtersEnabled;
+    }
+    public void setFiltersEnabled(boolean enabled){
+        this.filtersEnabled = enabled;
+    }
+
+    public String getProspectiveDeviceName() {
+        return prospectiveDeviceName;
+    }
+
+    public void setProspectiveDeviceName(String prospectiveDeviceName) {
+        this.prospectiveDeviceName = prospectiveDeviceName;
+    }
+
+    public String getProspectiveDeviceAddress() {
+        return prospectiveDeviceAddress;
+    }
+
+    public void setProspectiveDeviceAddress(String prospectiveDeviceAddress) {
+        this.prospectiveDeviceAddress = prospectiveDeviceAddress;
+    }
+
+    private String prospectiveDeviceAddress;
 
     //constructor is private since this is a singleton class
-    private AppDataSingleton() {
+    private AppDataSingleton() {}
 
-    }
-    public static void initAppDataSingleton(){
-        instance = new AppDataSingleton();
-    }
     public static AppDataSingleton getInstance(){
         return instance;
     }
+
     public void setScanDuration(int duration){
         this.scanDuration = duration;
     }
+
     public int getScanDuration(){
         return scanDuration;
     }
@@ -74,13 +99,5 @@ public class AppDataSingleton extends ViewModel {
 
     public void set_device_bluetooth_enabled(boolean device_bluetooth_enabled) {
         this.device_bluetooth_enabled = device_bluetooth_enabled;
-    }
-
-    public BluetoothManager getBluetooth_manager() {
-        return bluetooth_manager;
-    }
-
-    public void setBluetoothManager(BluetoothManager bluetooth_manager) {
-        this.bluetooth_manager = bluetooth_manager;
     }
 }

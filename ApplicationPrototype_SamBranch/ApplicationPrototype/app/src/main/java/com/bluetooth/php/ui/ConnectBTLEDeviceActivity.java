@@ -18,6 +18,7 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -49,7 +50,7 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
     private boolean permissions_granted=false;
     private int deviceCount =0;
     private Toast toast;
-
+    private ProgressBar scanProgressBar;
     static class ViewHolder {
         public TextView deviceName;
         public TextView deviceAddress;
@@ -60,7 +61,7 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
         super.onCreate(savedInstanceState);
         shared_data = AppDataSingleton.getInstance();
         setContentView(R.layout.activity_connect_btle_device);
-
+        scanProgressBar = findViewById(R.id.scanning_progress_bar);
         toolbar = findViewById(R.id.app_main_toolbar);
         toolbar.setTitle(R.string.bluetooth_device_scanning_label);
         setSupportActionBar(toolbar);
@@ -84,6 +85,7 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
                                     int position, long id) {
 
                 if (isBleScanning) {
+                    scanProgressBar.setVisibility(View.GONE);
                     bleScanner.stopScanning();
                 }
 
@@ -91,9 +93,18 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
                 if (toast != null) {
                     toast.cancel();
                 }
-                Intent intent = new Intent(ConnectBTLEDeviceActivity.this, PeripheralControlActivity.class);
-                intent.putExtra(PeripheralControlActivity.EXTRA_NAME, device.getName());
-                intent.putExtra(PeripheralControlActivity.EXTRA_ID, device.getAddress());
+                Intent intent = new Intent(ConnectBTLEDeviceActivity.this, DeviceActionsActivity.class);
+                if(device.getName() != null){
+                    shared_data.setProspectiveDeviceName(device.getName());
+                    Log.d(Constants.TAG, device.getName());
+                }
+                else{
+                    shared_data.setProspectiveDeviceName("N/A");
+                    Log.d(Constants.TAG, "N/A");
+                }
+                shared_data.setProspectiveDeviceAddress(device.getAddress());
+                Log.d(Constants.TAG, device.getAddress());
+
                 startActivity(intent);
 
             }
@@ -112,12 +123,12 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
             case R.id.action_open_settings:
                 Log.d(Constants.TAG, "Settings option pressed in Connect BTLE Devices Activity");
                 startActivity(new Intent(this, SettingsActivity.class));
-                overridePendingTransition(R.anim.slide_in_from_left,R.anim.slide_out_to_left);
+                overridePendingTransition(R.anim.slide_in_from_right,R.anim.slide_out_to_left);
                 break;
             default:
                 Log.d(Constants.TAG, "Default Switch statement, going to main activity");
                 startActivity(new Intent(this, MainActivity.class));
-                overridePendingTransition(R.anim.slide_in_from_left,R.anim.slide_out_to_left);
+                overridePendingTransition(R.anim.slide_in_from_left, R.anim.slide_out_to_left);
                 break;
         }
         return super.onOptionsItemSelected(item);
@@ -145,6 +156,7 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
         if (toast != null) {
             toast.cancel();
         }
+        scanProgressBar.setVisibility(View.GONE);
         setScanState(false);
     }
 
@@ -251,6 +263,7 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
             startScanning();
         } else {
             Log.d(Constants.TAG, "Already scanning");
+            scanProgressBar.setVisibility(View.GONE);
             bleScanner.stopScanning();
         }
     }
@@ -264,7 +277,8 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
                     bleDeviceListAdapter.notifyDataSetChanged();
                 }
             });
-            simpleToast(Constants.SCANNING,2000);
+//            simpleToast(Constants.SCANNING,2000);
+            scanProgressBar.setVisibility(View.VISIBLE);
             bleScanner.startScanning(this);
         } else {
             Log.i(Constants.TAG, "Permission to perform Bluetooth scanning was not yet granted");

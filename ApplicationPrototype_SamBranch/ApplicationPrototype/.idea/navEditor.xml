@@ -73,9 +73,18 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-362" />
-                            <option name="y" value="-80" />
+                            <option name="x" value="-358" />
+                            <option name="y" value="-86" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_connectBTLEDeviceActivity_to_mainActivity2">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -130,8 +139,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-665" />
-                            <option name="y" value="374" />
+                            <option name="x" value="-671" />
+                            <option name="y" value="349" />
                           </Point>
                         </option>
                       </LayoutPositions>

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="instruction_1_label">1. Open the Navigation Menu by pressing the three horizontal lines in the upper left corner.</string>
+    <string name="device_address_label">Device Address: </string>
+    <string name="connected_device_name_filler_layout">connected_device_name_filler</string>
+    <string name="connected_device_address_filler_layout">connected_device_address_filler</string>
 </resources>
