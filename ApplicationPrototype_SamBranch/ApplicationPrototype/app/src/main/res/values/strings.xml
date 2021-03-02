@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">PHP Partner App Prototype</string>
+    <string name="version">Version 0.8</string>
+    <string name="device_pairing">Device Pairing</string>
+    <string name="pre_made_grips">Grips</string>
+    <string name="asl">ASL Signs</string>
+    <string name="settings">Settings</string>
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+    <string name="mission_statement">Our goal is to develop an application that will connect with a
+                                    prosthetic device using a Bluetooth Low Energy Connection.
+                                    This application will enable a user to control the device via
+                                    commands that will perform predetermined grips.</string>
+
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">UND 2020-2021 Senior Design </string>
+    <string name="nav_header_group_name">Partial Hand Prosthetic Mobile App</string>
+    <string name="about_mission_label">Mission Statement</string>
+    <string name="about_team_label">Team Members</string>
+    <string name="bt_connect_a_device_label">Connect a Device</string>
+    <string name="settings_label">Settings</string>
+    <string name="device_status_label">Device Status: </string>
+    <string name="device_status_title">Device Status</string>
+    <string name="select_grip_label">Grip Commands</string>
+    <string name="select_asl_sign_label">ASL Commands</string>
+    <string name="connected">connected</string>
+    <string name="disconnected">disconnected</string>
+    <string name="no_data">no data found</string>
+    <string name="enable_bluetooth">Enable Bluetooth</string>
+    <string name="screen_title_main">Device List</string>
+    <string name="action_settings">Settings</string>
+    <string name="connect_device_label">Connect Device</string>
+    <string name="status_label">Status</string>
+    <string name="home_label">Home - How To Use This App</string>
+    <string name="grips_label">Grips</string>
+    <string name="asl_label">ASL</string>
+    <string name="bluetooth_device_scanning_label">Bluetooth Device Scanning</string>
+    <string name="help_label">Help</string>
+    <string name="instruction_1_label">1. Open the Navigation Menu by pressing the three horizontal lines in the upper left corner.</string>
+    <string name="instruction_2_label">2. Select an option from the list of menu items.</string>
+    <string name="instruction_3_label">3. To begin scanning for a device, press the "connect a device" option to open the device scanner.</string>
+    <string name="not_connected_label">Not Connected</string>
+    <string name="device_name_title">Device Name</string>
+    <string name="device_name_label">Device Name: </string>
+
+</resources>

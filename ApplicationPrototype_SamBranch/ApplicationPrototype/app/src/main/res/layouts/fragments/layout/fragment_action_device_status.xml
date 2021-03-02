@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/LL_action_bar"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/device_name_label"
+            android:textColor="@color/DarkBlueGray"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prospective_device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/connected_device_name_filler_layout"
+            android:textColor="@color/Red_Primary"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/LL_bluetooth_enabled_switch"
+        android:layout_below="@id/LL_action_bar"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/device_address_label"
+            android:textColor="@color/DarkBlueGray"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/prospective_device_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/connected_device_address_filler_layout"
+            android:textColor="@color/Red_Primary"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/LL_set_scan_duration"
+        android:layout_below="@id/LL_bluetooth_enabled_switch">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/device_status_label_tv"
+            android:text="@string/device_status_label"
+            android:textColor="@color/DarkBlueGray"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/device_status_tv"
+            android:layout_marginBottom="5dp"
+            android:text="@string/not_connected_label"
+            android:textColor="@color/Red_Primary"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/LL_save_settings_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/LL_set_scan_duration"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect"
+            android:backgroundTint="@color/teal_700"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

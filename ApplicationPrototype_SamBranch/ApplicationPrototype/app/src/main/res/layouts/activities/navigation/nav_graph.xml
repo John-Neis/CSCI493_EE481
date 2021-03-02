@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.bluetooth.php.ui.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" >
+        <action
+            android:id="@+id/action_mainActivity_to_connectBTLEDeviceActivity"
+            app:destination="@id/connectBTLEDeviceActivity"
+            app:enterAnim="@anim/slide_in_from_left"
+            app:exitAnim="@anim/slide_out_to_right"
+            app:popEnterAnim="@anim/slide_in_from_right"
+            app:popExitAnim="@anim/slide_out_to_left" />
+    </activity>
+    <fragment
+        android:id="@+id/aboutMissionFragment"
+        android:name="com.bluetooth.php.ui.about.AboutMissionFragment"
+        android:label="AboutMissionFragment" />
+    <fragment
+        android:id="@+id/aboutTeamFragment"
+        android:name="com.bluetooth.php.ui.about.AboutTeamFragment"
+        android:label="AboutTeamFragment" />
+    <activity
+        android:id="@+id/connectBTLEDeviceActivity"
+        android:name="com.bluetooth.php.ui.ConnectBTLEDeviceActivity"
+        android:label="activity_connect_btle_device"
+        tools:layout="@layout/activity_connect_btle_device" >
+        <action
+            android:id="@+id/action_connectBTLEDeviceActivity_to_mainActivity2"
+            app:destination="@id/mainActivity"
+            app:enterAnim="@anim/slide_in_from_left"
+            app:exitAnim="@anim/slide_out_to_right" />
+    </activity>
+    <activity
+        android:id="@+id/settingsActivity"
+        android:name="com.bluetooth.php.ui.SettingsActivity"
+        android:label="activity_settings"
+        tools:layout="@layout/activity_settings" />
+    <activity
+        android:id="@+id/deviceActionsActivity"
+        android:name="com.bluetooth.php.ui.DeviceActionsActivity"
+        android:label="activity_device_actions"
+        tools:layout="@layout/activity_device_actions" />
+    <fragment
+        android:id="@+id/actionDeviceStatusFragment"
+        android:name="com.bluetooth.php.ui.actions.ActionDeviceStatusFragment"
+        android:label="ActionDeviceStatusFragment" />
+    <fragment
+        android:id="@+id/actionSelectASLSignFragment"
+        android:name="com.bluetooth.php.ui.actions.ActionSelectASLSignFragment"
+        android:label="ActionSelectASLSignFragment" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.bluetooth.php.ui.actions.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/actionSelectGripFragment"
+        android:name="com.bluetooth.php.ui.actions.ActionSelectGripFragment"
+        android:label="ActionSelectGripFragment" />
+</navigation>
