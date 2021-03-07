@@ -243,6 +243,10 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
         }
     }
 
+    public void onStatusConnect(View view) {
+        Log.d(Constants.TAG, "Pressed Connect Button to Connect to PHP Controller");
+    }
+
     public void onScan(View view) {
         if (!bleScanner.isScanning()) {
             Log.d(Constants.TAG, "Not currently scanning");

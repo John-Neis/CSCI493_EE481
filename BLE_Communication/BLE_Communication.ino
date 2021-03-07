@@ -8,7 +8,7 @@
 #define WRITE_BUFFER_SIZE 256
 #define WRITE_BUFFER_FIXED_LENGTH false
 
-const char* nameOfPeripheral = "HandController";
+const char* nameOfPeripheral = "PHP Controller";
 const char* uuidOfService    = "00001101-0000-1000-8000-00805f9b34fb";
 const char* uuidOfRxChar     = "00001142-0000-1000-8000-00805f9b34fb";
 const char* uuidOfTxChar     = "00001143-0000-1000-8000-00805f9b34fb";
@@ -26,7 +26,7 @@ void setup() {
   Serial.begin(9600);
 
   // Ensure Serial port is ready
-  //while(!Serial);
+  while(!Serial);
 
   //Prepare LED
   pinMode(LED_BUILTIN, OUTPUT);

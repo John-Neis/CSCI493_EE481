@@ -27,10 +27,8 @@ com/bluetooth/php/bluetooth/BleScanner.java
  com.bluetooth.php.bluetooth.BleScanner$2
 com/bluetooth/php/ui/actions/ActionSelectASLSignFragment.java
  com.bluetooth.php.ui.actions.ActionSelectASLSignFragment
-com/bluetooth/php/ui/DeviceActionsActivity.java
- com.bluetooth.php.ui.DeviceActionsActivity
- com.bluetooth.php.ui.DeviceActionsActivity$1
- com.bluetooth.php.ui.DeviceActionsActivity$2
+com/bluetooth/php/util/AppDataSingleton.java
+ com.bluetooth.php.util.AppDataSingleton
 com/bluetooth/php/bluetooth/BTStateBroadcastReceiver.java
  com.bluetooth.php.bluetooth.BTStateBroadcastReceiver
 com/bluetooth/php/ui/MainActivity.java
@@ -57,7 +55,12 @@ com/bluetooth/php/ui/ConnectBTLEDeviceActivity.java
 com/bluetooth/php/ui/SettingsActivity.java
  com.bluetooth.php.ui.SettingsActivity
  com.bluetooth.php.ui.SettingsActivity$1
-com/bluetooth/php/util/AppDataSingleton.java
- com.bluetooth.php.util.AppDataSingleton
+com/bluetooth/php/ui/DeviceActionsActivity.java
+ com.bluetooth.php.ui.DeviceActionsActivity
+ com.bluetooth.php.ui.DeviceActionsActivity$1
+ com.bluetooth.php.ui.DeviceActionsActivity$2
 com/bluetooth/php/ui/actions/ActionDeviceStatusFragment.java
  com.bluetooth.php.ui.actions.ActionDeviceStatusFragment
+ com.bluetooth.php.ui.actions.ActionDeviceStatusFragment$1
+ com.bluetooth.php.ui.actions.ActionDeviceStatusFragment$2
+ com.bluetooth.php.ui.actions.ActionDeviceStatusFragment$3

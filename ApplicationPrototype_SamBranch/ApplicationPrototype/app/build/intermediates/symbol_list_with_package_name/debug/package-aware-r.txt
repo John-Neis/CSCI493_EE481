@@ -1944,6 +1944,7 @@ id deviceActionsActivity
 id deviceAddress
 id deviceName
 id device_actions_activity_main_container
+id device_connect_button
 id device_control_bottom_nav_bar
 id device_status_label_tv
 id device_status_tv
