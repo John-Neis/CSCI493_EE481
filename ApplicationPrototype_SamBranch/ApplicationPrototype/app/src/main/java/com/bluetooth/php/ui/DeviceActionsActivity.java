@@ -35,57 +35,8 @@ public class DeviceActionsActivity extends AppCompatActivity{
     private BottomNavigationView botNavView;
     private Bundle mSavedInstanceState;
     private Toolbar toolbar;
-    private BleAdapterService bluetoothLeAdapter;
     private androidx.appcompat.app.ActionBar actionBar;
-    public static final String EXTRA_NAME = "name";
-    public static final String EXTRA_ADDRESS = "id";
 
-    private final ServiceConnection service_connection = new ServiceConnection() {
-
-        @Override
-        public void onServiceConnected(ComponentName componentName, IBinder service) {
-            bluetoothLeAdapter = ((BleAdapterService.LocalBinder) service).getService();
-            bluetoothLeAdapter.setActivityHandler(message_handler);
-        }
-
-        @Override
-        public void onServiceDisconnected(ComponentName componentName) {
-            bluetoothLeAdapter = null;
-        }
-    };
-    @SuppressLint("HandlerLeak")
-    private Handler message_handler = new Handler() {
-        @Override
-        public void handleMessage(Message msg) {
-            Bundle bundle;
-            String service_uuid = "";
-            String characteristic_uuid = "";
-            byte[] b = null;
-
-            switch (msg.what) {
-                case BleAdapterService.GATT_CONNECTED:
-                    Log.d(Constants.TAG, "GATT Connected");
-
-                    break;
-                case BleAdapterService.GATT_DISCONNECT:
-                    Log.d(Constants.TAG, "GATT Disconnected");
-
-                    break;
-                case BleAdapterService.GATT_SERVICES_DISCOVERED:
-                    Log.d(Constants.TAG, "GATT Services Discovered");
-
-                    break;
-                case BleAdapterService.GATT_CHARACTERISTIC_READ:
-                    Log.d(Constants.TAG, "GATT Characteristic read");
-
-                    break;
-                case BleAdapterService.GATT_CHARACTERISTIC_WRITTEN:
-                    Log.d(Constants.TAG, "GATT Characteristic written");
-
-                    break;
-            }
-        }
-    };
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -123,7 +74,6 @@ public class DeviceActionsActivity extends AppCompatActivity{
 
     @SuppressLint("NonConstantResourceId")
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        int idx = item.getItemId();
         switch(item.getItemId()){
             case R.id.action_help:
                 botNavView.getMenu().findItem(R.id.action_help).setChecked(true);
