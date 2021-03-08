@@ -107,7 +107,6 @@ public class ActionDeviceStatusFragment extends Fragment {
                     break;
                 case BleAdapterService.GATT_CHARACTERISTIC_WRITTEN:
                     Log.d(Constants.TAG, "GATT Characteristic written");
-                    Log.d(Constants.TAG, "GATT Characteristic written");
                     bundle = msg.getData();
                     Log.d(Constants.TAG,
                             "Service=" + bundle.get(BleAdapterService.PARCEL_SERVICE_UUID).toString().toUpperCase()
