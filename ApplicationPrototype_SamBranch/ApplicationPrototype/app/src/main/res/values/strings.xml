@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">PHP Partner App Prototype</string>
-    <string name="version">Version 0.8</string>
+    <string name="version">Version 0.9</string>
     <string name="device_pairing">Device Pairing</string>
     <string name="pre_made_grips">Grips</string>
     <string name="asl">ASL Signs</string>
@@ -24,13 +24,14 @@
     <string name="device_status_title">Device Status</string>
     <string name="select_grip_label">Grip Commands</string>
     <string name="select_asl_sign_label">ASL Commands</string>
-    <string name="connected">connected</string>
-    <string name="disconnected">disconnected</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
     <string name="no_data">no data found</string>
     <string name="enable_bluetooth">Enable Bluetooth</string>
     <string name="screen_title_main">Device List</string>
     <string name="action_settings">Settings</string>
     <string name="connect_device_label">Connect Device</string>
+    <string name="disconnect_device_label">Disconnect Device</string>
     <string name="status_label">Status</string>
     <string name="home_label">Home - How To Use This App</string>
     <string name="grips_label">Grips</string>

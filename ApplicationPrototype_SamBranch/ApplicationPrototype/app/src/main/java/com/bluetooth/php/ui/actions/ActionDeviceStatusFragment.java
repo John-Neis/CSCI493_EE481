@@ -1,6 +1,7 @@
 package com.bluetooth.php.ui.actions;
 
 import android.annotation.SuppressLint;
+import android.bluetooth.BluetoothGattService;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -26,15 +27,20 @@ import com.bluetooth.php.ui.PeripheralControlActivity;
 import com.bluetooth.php.util.AppDataSingleton;
 import com.bluetooth.php.util.Constants;
 
+import java.util.List;
+
 
 public class ActionDeviceStatusFragment extends Fragment {
     private TextView selected_device_name_tv;
     private TextView selected_device_address_tv;
     private TextView device_status_tv;
+    private TextView message_tv;
     private View view;
+    private boolean connected = false;
     private String prospective_device_name_data;
     private String prospective_device_address_data;
-    private Button btnConnect;
+    private Button btn_connect;
+    private Button btn_test;
     private BleAdapterService bluetooth_le_adapter;
 
     private final ServiceConnection service_connection = new ServiceConnection() {
@@ -61,16 +67,38 @@ public class ActionDeviceStatusFragment extends Fragment {
             byte[] b = null;
 
             switch (msg.what) {
+                case BleAdapterService.MESSAGE:
+                    bundle = msg.getData();
+                    String text = bundle.getString(BleAdapterService.PARCEL_TEXT);
+                    showMsg(text);
+                    break;
+
                 case BleAdapterService.GATT_CONNECTED:
                     Log.d(Constants.TAG, "GATT Connected");
-
+                    showMsg("GATT CONNECTED");
+                    bluetooth_le_adapter.discoverServices();
                     break;
                 case BleAdapterService.GATT_DISCONNECT:
                     Log.d(Constants.TAG, "GATT Disconnected");
-
+                    showMsg("GATT DISCONNECTED");
                     break;
                 case BleAdapterService.GATT_SERVICES_DISCOVERED:
                     Log.d(Constants.TAG, "GATT Services Discovered");
+                    List<BluetoothGattService> service_list = bluetooth_le_adapter.getSupportedGattServices();
+                    boolean control_service_present = false;
+                    for(BluetoothGattService svc : service_list){
+                        Log.d(Constants.TAG,
+                                "UUID=" + svc.getUuid().toString().toUpperCase()
+                                        + " INSTANCE=" + svc.getInstanceId());
+                        if(svc.getUuid().toString().equalsIgnoreCase(BleAdapterService.PHP_CONTROL_SERVICE)) {
+                            control_service_present = true;
+                        }
+                    }
+                    if(control_service_present){
+                        showMsg("Device Has Expected Services");
+                    }else{
+                        showMsg("Device Does Not Have Expected Services");
+                    }
 
                     break;
                 case BleAdapterService.GATT_CHARACTERISTIC_READ:
@@ -79,7 +107,12 @@ public class ActionDeviceStatusFragment extends Fragment {
                     break;
                 case BleAdapterService.GATT_CHARACTERISTIC_WRITTEN:
                     Log.d(Constants.TAG, "GATT Characteristic written");
-
+                    Log.d(Constants.TAG, "GATT Characteristic written");
+                    bundle = msg.getData();
+                    Log.d(Constants.TAG,
+                            "Service=" + bundle.get(BleAdapterService.PARCEL_SERVICE_UUID).toString().toUpperCase()
+                                    + " Characteristic="
+                                    + bundle.get(BleAdapterService.PARCEL_CHARACTERISTIC_UUID).toString().toUpperCase());
                     break;
             }
         }
@@ -92,8 +125,7 @@ public class ActionDeviceStatusFragment extends Fragment {
         view = inflater.inflate(R.layout.fragment_action_device_status,container,false);
         shared_data = AppDataSingleton.getInstance();
         init_ui_elements();
-
-
+        showMsg("READY");
         return view;
     }
     private void init_ui_elements(){
@@ -108,38 +140,80 @@ public class ActionDeviceStatusFragment extends Fragment {
 
         device_status_tv = view.findViewById(R.id.device_status_tv);
 
-        btnConnect = (Button)view.findViewById(R.id.device_connect_button);
-        btnConnect.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Log.d(Constants.TAG, "onConnect. Device is: " + prospective_device_address_data);
-                //showMsg("onConnect");
+        btn_connect = view.findViewById(R.id.btnConnect);
+        btn_connect.setOnClickListener(this::onClick);
 
-                if (bluetooth_le_adapter != null) {
-                    if(bluetooth_le_adapter.isConnected() && btnConnect.getText().equals("Disconnect")) {
-                        bluetooth_le_adapter.disconnect();
-                        btnConnect.setText("Connect");
-                        device_status_tv.setText("Not Connected");
-                        return;
-                    } else if (bluetooth_le_adapter.connect(prospective_device_address_data) && btnConnect.getText().equals("Connect")) {
-                        //((Button) PeripheralControlActivity.this.findViewById(R.id.connectButton)).setEnabled(false);
-                        btnConnect.setText("Disconnect");
-                        device_status_tv.setText("Connected");
-                    } else {
-                        //showMsg("onConnect: failed to connect");
-                        Log.d(Constants.TAG, "onConnect: failed to connect");
-                    }
-                } else {
-                    //showMsg("onConnect: bluetooth_le_adapter=null");
-                    Log.d(Constants.TAG, "onConnect: bluetooth_le_adapter=null");
-                }
-            }
-        });
+        btn_test = view.findViewById(R.id.text_write_char_btn);
+        btn_test.setOnClickListener(this::onClick);
+
+        message_tv = view.findViewById(R.id.msgTextView);
+        message_tv.setText("");
 
         Intent gattServiceIntent = new Intent(getContext(), BleAdapterService.class);
         getContext().bindService(gattServiceIntent, service_connection, getContext().BIND_AUTO_CREATE);
     }
 
-//    public void onStatusConnect(View view) {
-//        Log.d(Constants.TAG, "Pressed Connect Button to Connect to PHP Controller");
-//    }
+    private void onClick(View view){
+        switch(view.getId()){
+            case R.id.btnConnect:
+                if(!connected) {
+                    onConnect();
+                }else{
+                    onDisconnect();
+                }
+                    break;
+            case R.id.text_write_char_btn:
+                    Log.d(Constants.TAG, "Test Button Pressed");
+                    bluetooth_le_adapter.writeCharacteristic(BleAdapterService.PHP_CONTROL_SERVICE, BleAdapterService.PHP_WRITE_CHARACTERISTIC, Constants.TEST_COMMAND);
+                    Log.d(Constants.TAG, "MESSAGE SENT : " + Constants.TEST_COMMAND.toString());
+                break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + view.getId());
+        }
+    }
+    private void onConnect(){
+        Log.d(Constants.TAG, "onConnect. Device is: " + prospective_device_address_data);
+        showMsg("onConnect");
+        if (bluetooth_le_adapter != null) {
+            if (bluetooth_le_adapter.connect(prospective_device_address_data)) {
+                btn_connect.setText(R.string.disconnect_device_label);
+                btn_connect.setBackgroundColor(0xFFFF0000);
+                device_status_tv.setText(R.string.connected);
+                device_status_tv.setTextColor(0xFF44FF44);
+                btn_test.setEnabled(true);
+                connected = true;
+            } else {
+                showMsg("onConnect: failed to connect");
+            }
+        } else {
+            showMsg("onConnect: bluetooth_le_adapter=null");
+        }
+    }
+    private void onDisconnect(){
+        showMsg("onDisconnect");
+        if(connected){
+            connected = false;
+            bluetooth_le_adapter.disconnect();
+            btn_connect.setBackgroundColor(0xFF018786);
+            btn_connect.setText(R.string.connect_device_label);
+            device_status_tv.setText(R.string.not_connected_label);
+            device_status_tv.setTextColor(0xFFFF0000);
+            btn_test.setEnabled(false);
+        }
+    }
+    private void showMsg(final String msg) {
+        Log.d(Constants.TAG, msg);
+        getActivity().runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                message_tv.setText(msg);
+            }
+        });
+    }
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        getContext().unbindService(service_connection);
+        bluetooth_le_adapter = null;
+    }
 }

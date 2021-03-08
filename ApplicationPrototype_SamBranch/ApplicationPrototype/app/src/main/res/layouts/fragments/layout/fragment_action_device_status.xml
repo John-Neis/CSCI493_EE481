@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <!--tools:context=".ui.actions.ActionDeviceStatusFragment"-->
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.actions.ActionDeviceStatusFragment">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:id="@+id/LL_action_bar"
+        android:id="@+id/LL_device_name"
         android:layout_marginTop="@dimen/activity_horizontal_margin"
         android:layout_marginBottom="5dp"
         android:layout_marginLeft="@dimen/activity_vertical_margin"
@@ -32,8 +32,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:id="@+id/LL_bluetooth_enabled_switch"
-        android:layout_below="@id/LL_action_bar"
+        android:id="@+id/LL_device_address"
+        android:layout_below="@id/LL_device_name"
         android:layout_marginBottom="5dp"
         android:layout_marginLeft="@dimen/activity_vertical_margin"
         >
@@ -58,8 +58,8 @@
         android:orientation="horizontal"
         android:layout_marginLeft="@dimen/activity_vertical_margin"
         android:layout_marginBottom="5dp"
-        android:id="@+id/LL_set_scan_duration"
-        android:layout_below="@id/LL_bluetooth_enabled_switch">
+        android:id="@+id/LL_device_status"
+        android:layout_below="@id/LL_device_address">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -72,27 +72,58 @@
             android:layout_height="wrap_content"
             android:id="@+id/device_status_tv"
             android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
             android:text="@string/not_connected_label"
             android:textColor="@color/Red_Primary"
             android:textSize="14sp" />
 
     </LinearLayout>
     <LinearLayout
-        android:id="@id/LL_save_settings_button"
+        android:id="@+id/LL_connect_device"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_below="@+id/LL_set_scan_duration"
+        android:layout_below="@+id/LL_device_status"
         >
         <Button
-            android:id="@+id/device_connect_button"
+            android:id="@+id/btnConnect"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Connect"
+            android:text="@string/connect_device_label"
             android:backgroundTint="@color/teal_700"
             android:layout_marginRight="@dimen/activity_vertical_margin"
             android:layout_marginLeft="@dimen/activity_vertical_margin"
             />
+        <TextView
+            android:id="@+id/msgTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="msgTextView" />
     </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/LL_connect_device"
+        android:layout_marginBottom="@dimen/action_bar_vertical_height"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+        <TextView
+            android:id="@+id/services_label_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Services:"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/text_write_char_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/services_label_tv"
+            android:text="Test"
+            android:backgroundTint="@color/teal_700"
+            android:enabled="false"/>
+    </RelativeLayout>
 
 </RelativeLayout>
