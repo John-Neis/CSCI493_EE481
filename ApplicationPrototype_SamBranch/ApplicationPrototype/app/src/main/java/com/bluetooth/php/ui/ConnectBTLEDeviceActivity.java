@@ -83,6 +83,7 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
+                Log.d(Constants.TAG, "Device Selected From Scan Results");
 
                 if (isBleScanning) {
                     scanProgressBar.setVisibility(View.GONE);
@@ -106,7 +107,7 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
                 Log.d(Constants.TAG, device.getAddress());
 
                 startActivity(intent);
-
+                overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_right);
             }
         });
     }
@@ -123,7 +124,7 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
             case R.id.action_open_settings:
                 Log.d(Constants.TAG, "Settings option pressed in Connect BTLE Devices Activity");
                 startActivity(new Intent(this, SettingsActivity.class));
-                overridePendingTransition(R.anim.slide_in_from_right,R.anim.slide_out_to_left);
+                overridePendingTransition(R.anim.slide_in_from_right,R.anim.slide_out_to_right);
                 break;
             default:
                 Log.d(Constants.TAG, "Default Switch statement, going to main activity");
@@ -135,6 +136,13 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
     }
 
     @Override
+    public void onBackPressed() {
+        Log.d(Constants.TAG, "phone back button preseed in Connect BTLE Devices Activity");
+        startActivity(new Intent(this, MainActivity.class));
+        overridePendingTransition(R.anim.slide_in_from_left, R.anim.slide_out_to_left);
+    }
+
+    @Override
     public void candidateBleDevice(final BluetoothDevice device, byte[] scan_record, int rssi) {
         runOnUiThread(new Runnable() {
             @Override
@@ -142,6 +150,7 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
                 bleDeviceListAdapter.addDevice(device);
                 bleDeviceListAdapter.notifyDataSetChanged();
                 deviceCount++;
+                Log.d(Constants.TAG, "Device Count: "+deviceCount);
             }
         });
     }
@@ -153,10 +162,11 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
 
     @Override
     public void scanningStopped() {
-        if (toast != null) {
-            toast.cancel();
-        }
         scanProgressBar.setVisibility(View.GONE);
+        Log.d(Constants.TAG, "Scan Stopped, Device Count: "+deviceCount);
+        if(deviceCount == 0){
+            simpleToast("No BLE Devices Found", 2000);
+        }
         setScanState(false);
     }
 
@@ -243,10 +253,6 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
         }
     }
 
-    public void onStatusConnect(View view) {
-        Log.d(Constants.TAG, "Pressed Connect Button to Connect to PHP Controller");
-    }
-
     public void onScan(View view) {
         if (!bleScanner.isScanning()) {
             Log.d(Constants.TAG, "Not currently scanning");
@@ -281,7 +287,6 @@ public class ConnectBTLEDeviceActivity extends AppCompatActivity implements Scan
                     bleDeviceListAdapter.notifyDataSetChanged();
                 }
             });
-//            simpleToast(Constants.SCANNING,2000);
             scanProgressBar.setVisibility(View.VISIBLE);
             bleScanner.startScanning(this);
         } else {

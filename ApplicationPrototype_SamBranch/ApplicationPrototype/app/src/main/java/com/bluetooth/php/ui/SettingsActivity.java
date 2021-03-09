@@ -102,7 +102,6 @@ public class SettingsActivity extends AppCompatActivity implements CompoundButto
 
             inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(),0);
         }
-
     }
     private boolean validateInput(){
         if(!scanDurationLayout.getEditText().getText().toString().isEmpty() && scanDurationLayout != null) {

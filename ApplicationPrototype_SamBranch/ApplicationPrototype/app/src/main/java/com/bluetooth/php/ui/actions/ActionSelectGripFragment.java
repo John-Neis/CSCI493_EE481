@@ -18,4 +18,9 @@ public class ActionSelectGripFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_action_select_grip,container,false);
         return view;
     }
+
+    @Override
+    public void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+    }
 }

@@ -59,7 +59,7 @@ public class DeviceActionsActivity extends AppCompatActivity{
         botNavView.getMenu().findItem(R.id.action_device_status).setChecked(true);
 
         if (mSavedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_bot_nav_container, new ActionDeviceStatusFragment()).commit();
+//            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_bot_nav_container, new ActionDeviceStatusFragment()).commit();
             actionBar = getSupportActionBar();
             actionBar.setTitle(R.string.device_status_title);
         }
@@ -82,7 +82,8 @@ public class DeviceActionsActivity extends AppCompatActivity{
 
             case R.id.action_device_status:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragment_bot_nav_container, new ActionDeviceStatusFragment()).commit();
+                        .replace(R.id.fragment_bot_nav_container, new ActionDeviceStatusFragment())
+                        .commit();
                 actionBar=getSupportActionBar();
                 actionBar.setTitle(R.string.device_status_title);
                 botNavView.getMenu().findItem(R.id.action_device_status).setChecked(true);
@@ -91,7 +92,8 @@ public class DeviceActionsActivity extends AppCompatActivity{
 
             case R.id.action_grips:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragment_bot_nav_container, new ActionSelectGripFragment()).commit();
+                        .replace(R.id.fragment_bot_nav_container, new ActionSelectGripFragment())
+                        .commit();
                 actionBar=getSupportActionBar();
                 actionBar.setTitle(R.string.select_grip_label);
                 botNavView.getMenu().findItem(R.id.action_grips).setChecked(true);
@@ -100,12 +102,15 @@ public class DeviceActionsActivity extends AppCompatActivity{
 
             case R.id.action_asl:
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragment_bot_nav_container, new ActionSelectASLSignFragment()).commit();
+                        .replace(R.id.fragment_bot_nav_container, new ActionSelectASLSignFragment())
+                        .commit();
                 actionBar=getSupportActionBar();
                 actionBar.setTitle(R.string.select_asl_sign_label);
                 botNavView.getMenu().findItem(R.id.action_asl).setChecked(true);
                 Log.d(Constants.TAG, "ACTION ASL on click");
                 break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + item.getItemId());
         }
         return false;
     }

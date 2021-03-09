@@ -1,7 +1,7 @@
-#Sun Mar 07 17:30:54 CST 2021
-base.0=C\:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Tue Mar 09 15:36:06 CST 2021
+base.1=C\:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
 path.1=classes.dex
+base.0=C\:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.1=classes2.dex
-path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+path.0=classes.dex

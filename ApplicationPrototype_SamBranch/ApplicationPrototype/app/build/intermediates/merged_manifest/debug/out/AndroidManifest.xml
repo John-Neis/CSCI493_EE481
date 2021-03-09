@@ -48,7 +48,7 @@
         </activity>
         <activity
             android:name="com.bluetooth.php.ui.DeviceActionsActivity"
-            android:label="Label TBD"
+            android:label="Device Control"
             android:screenOrientation="portrait" >
         </activity>
         <activity android:name="com.bluetooth.php.ui.SettingsActivity" >

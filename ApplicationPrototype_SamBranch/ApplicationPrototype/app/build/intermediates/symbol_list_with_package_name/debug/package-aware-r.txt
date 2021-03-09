@@ -1786,13 +1786,18 @@ id FUNCTION
 id LL_action_bar
 id LL_bluetooth_enabled_switch
 id LL_bluetooth_filters_enabled_switch
+id LL_connect_device
 id LL_content
 id LL_current_scan_duration
+id LL_device_address
+id LL_device_name
+id LL_device_status
 id LL_save_settings_button
 id LL_scan_button
 id LL_set_scan_duration
 id META
 id NO_DEBUG
+id RL_device_gatt_profile
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1892,6 +1897,7 @@ id bounce
 id bt_device_list
 id bt_device_name
 id bt_scan
+id btnConnect
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1900,6 +1906,7 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id characteristics_label_tv
 id checkbox
 id checked
 id chip
@@ -1914,6 +1921,8 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id collapseActionView
+id command_input
+id command_prompt
 id confirm_button
 id connectBTLEDeviceActivity
 id connectButton
@@ -1944,7 +1953,6 @@ id deviceActionsActivity
 id deviceAddress
 id deviceName
 id device_actions_activity_main_container
-id device_connect_button
 id device_control_bottom_nav_bar
 id device_status_label_tv
 id device_status_tv
@@ -2121,6 +2129,9 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id php_control_service_label
+id php_read_characteristic
+id php_write_characteristic
 id pin
 id position
 id postLayout
@@ -2167,6 +2178,8 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id send_command_btn
+id services_label_tv
 id settingsActivity
 id shortcut
 id showCustom
@@ -2180,6 +2193,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id space
 id spacer
 id spline
 id split_action_bar
@@ -2465,6 +2479,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string about_mission_label
 string about_team_label
+string action_ble_scanner_label
 string action_settings
 string app_name
 string appbar_scrolling_view_behavior
@@ -2490,6 +2505,7 @@ string device_name_title
 string device_pairing
 string device_status_label
 string device_status_title
+string disconnect_device_label
 string disconnected
 string enable_bluetooth
 string error_icon_content_description

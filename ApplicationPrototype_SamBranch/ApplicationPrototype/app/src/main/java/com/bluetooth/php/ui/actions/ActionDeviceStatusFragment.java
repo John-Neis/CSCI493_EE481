@@ -14,8 +14,12 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -23,11 +27,15 @@ import androidx.fragment.app.Fragment;
 
 import com.bluetooth.php.R;
 import com.bluetooth.php.bluetooth.BleAdapterService;
-import com.bluetooth.php.ui.PeripheralControlActivity;
 import com.bluetooth.php.util.AppDataSingleton;
 import com.bluetooth.php.util.Constants;
+import com.google.android.material.textfield.TextInputLayout;
 
 import java.util.List;
+import java.util.Objects;
+
+import static android.view.View.INVISIBLE;
+import static android.view.View.VISIBLE;
 
 
 public class ActionDeviceStatusFragment extends Fragment {
@@ -36,23 +44,28 @@ public class ActionDeviceStatusFragment extends Fragment {
     private TextView device_status_tv;
     private TextView message_tv;
     private View view;
-    private boolean connected = false;
+    private boolean gattConnected = false;
     private String prospective_device_name_data;
     private String prospective_device_address_data;
     private Button btn_connect;
-    private Button btn_test;
+    private Button btn_send_text_command;
+    private TextInputLayout command_text_layout;
+    private RelativeLayout gatt_profile_relative_layout;
     private BleAdapterService bluetooth_le_adapter;
+    private AppDataSingleton shared_data;
 
     private final ServiceConnection service_connection = new ServiceConnection() {
 
         @Override
         public void onServiceConnected(ComponentName componentName, IBinder service) {
+            Log.d(Constants.TAG, "onServiceConnected");
             bluetooth_le_adapter = ((BleAdapterService.LocalBinder) service).getService();
             bluetooth_le_adapter.setActivityHandler(message_handler);
         }
 
         @Override
         public void onServiceDisconnected(ComponentName componentName) {
+            Log.d(Constants.TAG, "onServiceDisconnected");
             bluetooth_le_adapter = null;
         }
     };
@@ -76,11 +89,14 @@ public class ActionDeviceStatusFragment extends Fragment {
                 case BleAdapterService.GATT_CONNECTED:
                     Log.d(Constants.TAG, "GATT Connected");
                     showMsg("GATT CONNECTED");
+                    shared_data.setGattConnected(true);
                     bluetooth_le_adapter.discoverServices();
                     break;
                 case BleAdapterService.GATT_DISCONNECT:
                     Log.d(Constants.TAG, "GATT Disconnected");
                     showMsg("GATT DISCONNECTED");
+                    shared_data.setGattConnected(false);
+                    gatt_profile_relative_layout.setVisibility(INVISIBLE);
                     break;
                 case BleAdapterService.GATT_SERVICES_DISCOVERED:
                     Log.d(Constants.TAG, "GATT Services Discovered");
@@ -96,8 +112,10 @@ public class ActionDeviceStatusFragment extends Fragment {
                     }
                     if(control_service_present){
                         showMsg("Device Has Expected Services");
+                        gatt_profile_relative_layout.setVisibility(VISIBLE);
                     }else{
                         showMsg("Device Does Not Have Expected Services");
+                        gatt_profile_relative_layout.setVisibility(INVISIBLE);
                     }
 
                     break;
@@ -117,13 +135,16 @@ public class ActionDeviceStatusFragment extends Fragment {
         }
     };
 
-    AppDataSingleton shared_data;
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_action_device_status,container,false);
         shared_data = AppDataSingleton.getInstance();
+        gattConnected = shared_data.isGattConnected();
         init_ui_elements();
+        Intent gattServiceIntent = new Intent(getContext(), BleAdapterService.class);
+        requireContext().bindService(gattServiceIntent, service_connection, Context.BIND_AUTO_CREATE);
         showMsg("READY");
         return view;
     }
@@ -142,36 +163,58 @@ public class ActionDeviceStatusFragment extends Fragment {
         btn_connect = view.findViewById(R.id.btnConnect);
         btn_connect.setOnClickListener(this::onClick);
 
-        btn_test = view.findViewById(R.id.text_write_char_btn);
-        btn_test.setOnClickListener(this::onClick);
-
         message_tv = view.findViewById(R.id.msgTextView);
         message_tv.setText("");
 
-        Intent gattServiceIntent = new Intent(getContext(), BleAdapterService.class);
-        getContext().bindService(gattServiceIntent, service_connection, getContext().BIND_AUTO_CREATE);
+        gatt_profile_relative_layout = view.findViewById(R.id.RL_device_gatt_profile);
+
+        btn_send_text_command = view.findViewById(R.id.send_command_btn);
+        btn_send_text_command.setOnClickListener(this::onClick);
+
+        command_text_layout = view.findViewById(R.id.command_input);
+
     }
 
     private void onClick(View view){
         switch(view.getId()){
             case R.id.btnConnect:
-                if(!connected) {
+                if(!gattConnected) {
                     onConnect();
                 }else{
                     onDisconnect();
                 }
                     break;
-            case R.id.text_write_char_btn:
-                    Log.d(Constants.TAG, "Test Button Pressed");
-                    bluetooth_le_adapter.writeCharacteristic(BleAdapterService.PHP_CONTROL_SERVICE, BleAdapterService.PHP_WRITE_CHARACTERISTIC, Constants.TEST_COMMAND);
-                    Log.d(Constants.TAG, "MESSAGE SENT : " + Constants.TEST_COMMAND.toString());
+            case R.id.send_command_btn:
+                Log.d(Constants.TAG, "Send Command Button Pressed");
+                sendCommand();
                 break;
             default:
                 throw new IllegalStateException("Unexpected value: " + view.getId());
         }
     }
+    private void sendCommand(){
+        String command_text = command_text_layout.getEditText().getText().toString();
+
+        if(!command_text.isEmpty()){
+            command_text_layout.setError(null);
+
+            bluetooth_le_adapter.writeCharacteristic(BleAdapterService.PHP_CONTROL_SERVICE, BleAdapterService.PHP_WRITE_CHARACTERISTIC, command_text.getBytes());
+            Log.d(Constants.TAG, "MESSAGE SENT : " + command_text);
+            Log.d(Constants.TAG, "MESSAGE Bytes SENT : " + command_text.getBytes());
+            command_text_layout.getEditText().setText("");
+            closeKeyboard();
+            Toast.makeText(getContext(), "Command: \"" + command_text + "\" Has been sent!", Toast.LENGTH_SHORT).show();
+        }
+        else{
+            Log.d(Constants.TAG, "command is empty or invalid");
+            command_text_layout.setError("Error: Command cannot be empty");
+        }
+
+
+    }
     private void onConnect(){
-        Log.d(Constants.TAG, "onConnect. Device is: " + prospective_device_address_data);
+        Log.d(Constants.TAG, "onConnect. Device is: " + prospective_device_name_data);
+        Log.d(Constants.TAG, "onConnect. Address is: " + prospective_device_address_data);
         showMsg("onConnect");
         if (bluetooth_le_adapter != null) {
             if (bluetooth_le_adapter.connect(prospective_device_address_data)) {
@@ -179,8 +222,7 @@ public class ActionDeviceStatusFragment extends Fragment {
                 btn_connect.setBackgroundColor(0xFFFF0000);
                 device_status_tv.setText(R.string.connected);
                 device_status_tv.setTextColor(0xFF44FF44);
-                btn_test.setEnabled(true);
-                connected = true;
+                gattConnected = true;
             } else {
                 showMsg("onConnect: failed to connect");
             }
@@ -190,16 +232,16 @@ public class ActionDeviceStatusFragment extends Fragment {
     }
     private void onDisconnect(){
         showMsg("onDisconnect");
-        if(connected){
-            connected = false;
+        if(gattConnected){
+            gattConnected = false;
             bluetooth_le_adapter.disconnect();
             btn_connect.setBackgroundColor(0xFF018786);
             btn_connect.setText(R.string.connect_device_label);
             device_status_tv.setText(R.string.not_connected_label);
             device_status_tv.setTextColor(0xFFFF0000);
-            btn_test.setEnabled(false);
         }
     }
+
     private void showMsg(final String msg) {
         Log.d(Constants.TAG, msg);
         getActivity().runOnUiThread(new Runnable() {
@@ -209,10 +251,40 @@ public class ActionDeviceStatusFragment extends Fragment {
             }
         });
     }
-    @Override
+//    @Override
     public void onDestroy() {
+        Log.d(Constants.TAG, "On DESTROY");
         super.onDestroy();
-        getContext().unbindService(service_connection);
+        requireContext().unbindService(service_connection);
         bluetooth_le_adapter = null;
+
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        Log.d(Constants.TAG, "On Resume");
+        if(gattConnected){
+            Log.d(Constants.TAG, "Gatt is connected");
+
+        }
+        else{
+            Log.d(Constants.TAG, "Gatt not connected");
+        }
+    }
+    private void closeKeyboard(){
+        View view = getActivity().getCurrentFocus();
+        if(view != null){
+            InputMethodManager inputMethodManager =
+                    (InputMethodManager)
+                            getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+
+            inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(),0);
+        }
     }
 }

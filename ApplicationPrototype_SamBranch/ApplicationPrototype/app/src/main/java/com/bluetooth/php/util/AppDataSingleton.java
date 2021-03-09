@@ -1,14 +1,17 @@
 package com.bluetooth.php.util;
 
+import android.annotation.SuppressLint;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothManager;
 import android.bluetooth.le.ScanFilter;
 import android.bluetooth.le.ScanSettings;
+import android.content.Intent;
 import android.util.Log;
 
 import androidx.lifecycle.ViewModel;
 
 import com.bluetooth.php.bluetooth.BTStateBroadcastReceiver;
+import com.bluetooth.php.bluetooth.BleAdapterService;
 
 //Singleton Class that is used to share certain data throughout the entire application.
 public class AppDataSingleton extends ViewModel {
@@ -22,7 +25,22 @@ public class AppDataSingleton extends ViewModel {
     private int scanDuration = Constants.DEFAULT_SCAN_DURATION;
     private String prospectiveDeviceName;
     private boolean filtersEnabled = Constants.DEFAULT_FILTER_SETTING;
+    private boolean gattConnected= false;
+    private Intent bleAdapterServiceIntent;
+    @SuppressLint("StaticFieldLeak")
 
+    public Intent getBleAdapterServiceIntent(){
+        return bleAdapterServiceIntent;
+    }
+    public void setBleAdapterServiceIntent(Intent intent){
+        this.bleAdapterServiceIntent = intent;
+    }
+    public boolean isGattConnected(){
+        return gattConnected;
+    }
+    public void setGattConnected(boolean connected){
+        this.gattConnected = connected;
+    }
     public boolean areFiltersEnabled(){
         return filtersEnabled;
     }

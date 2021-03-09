@@ -1,542 +1,542 @@
 [
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_nav_menu_group.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nav_menu_group.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_bot_nav_grips.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_bot_nav_grips.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jasmyn_profile_pic.jpg.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\jasmyn_profile_pic.jpg"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_scan.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_scan.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_to_right.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_out_to_right.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jack_profile_pic.jpg.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\jack_profile_pic.jpg"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_connect_btle_device.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\activities\\layout\\activity_connect_btle_device.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_bot_nav_asl.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_bot_nav_asl.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\raw_alarm.wav.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\raw\\alarm.wav"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_nav_menu_asl.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_nav_menu_asl.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_bot_nav_device_status.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_bot_nav_device_status.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_bot_nav_grips.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_bot_nav_grips.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_down_from_center.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_down_from_center.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_bot_nav_device_status.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_bot_nav_device_status.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_bot_nav_home.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_bot_nav_home.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_test_icon.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_test_icon.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_scan.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_scan.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_nav_menu_grips.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_nav_menu_grips.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_nav_menu_mission.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_nav_menu_mission.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_nav_menu.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_nav_menu.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_nav_menu_group.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_nav_menu_group.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_nav_menu_bt_connection.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_nav_menu_bt_connection.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_nav_menu_asl.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_nav_menu_asl.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_single_person_profile.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_single_person_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_settings.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_settings.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\color_bot_nav_colors.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\color\\bot_nav_colors.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\activities\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_nav_menu_asl.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nav_menu_asl.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_to_left.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_out_to_left.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_nav_menu_group.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_nav_menu_group.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_nav_menu_group.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_nav_menu_group.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_bot_nav_asl.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_bot_nav_asl.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_nav_menu_grips.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_nav_menu_grips.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_device_status.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_device_status.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_down_to_center.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_down_to_center.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sam_profile_pic.jpg.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\sam_profile_pic.jpg"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_from_left.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_in_from_left.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_peripheral_control.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\activities\\layout\\activity_peripheral_control.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_nav_menu_mission.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nav_menu_mission.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_action_select_asl_sign.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\fragments\\layout\\fragment_action_select_asl_sign.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_device_status_24.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\ic_action_device_status_24.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_megan_profile_pic.jpg.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\megan_profile_pic.jpg"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_single_person_profile.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_single_person_profile.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_nav_menu_grips.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_nav_menu_grips.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_bot_nav_asl.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_bot_nav_asl.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_jack_profile_pic.jpg.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-v24\\jack_profile_pic.jpg"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_bot_nav_device_status.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_bot_nav_device_status.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_bot_nav_device_status.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_bot_nav_device_status.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_scan.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_scan.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_device_status.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_device_status.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_nav_menu.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_nav_menu.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_up_to_center.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_up_to_center.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\menu_nav_menu.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\menu\\nav_menu.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_daryl_profile_pic.jpg.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\daryl_profile_pic.jpg"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_single_person_profile.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_single_person_profile.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_nav_menu_group.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_nav_menu_group.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_bot_nav_grips.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_bot_nav_grips.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_megan_profile_pic.jpg.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-v24\\megan_profile_pic.jpg"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_bot_nav_device_status.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_bot_nav_device_status.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_settings.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_settings.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_daryl_profile_pic.jpg.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\daryl_profile_pic.jpg"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_test_icon.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_test_icon.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_bot_nav_grips.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_bot_nav_grips.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_nav_menu_grips.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nav_menu_grips.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\activities\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_bot_nav_grips.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_bot_nav_grips.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_help_24_active.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\ic_action_help_24_active.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_nav_menu_bt_connection.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_nav_menu_bt_connection.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_test_icon.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_test_icon.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_single_person_profile.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_single_person_profile.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_device_status.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_device_status.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_bot_nav_home.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_bot_nav_home.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\color_bot_nav_colors.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\color\\bot_nav_colors.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_nav_menu_asl.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_nav_menu_asl.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_nav_menu_grips.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_nav_menu_grips.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_test_icon.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi-v24\\ic_test_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_und_flame_logo.jpg.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\und_flame_logo.jpg"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_grips_24.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\ic_action_grips_24.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_scan.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_scan.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\util_layouts\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_bot_nav_home.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_bot_nav_home.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_bot_nav_home.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_bot_nav_home.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_scan.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_scan.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_device_status.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_device_status.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_scan.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_scan.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_nav_menu_mission.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_nav_menu_mission.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_bot_nav_grips.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_bot_nav_grips.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_nav_menu_asl.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_nav_menu_asl.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\activities\\layout\\activity_settings.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\raw_alarm.wav.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\raw\\alarm.wav"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\menu_device_control_menu.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\menu\\device_control_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_device_status.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_device_status.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_nav_menu_mission.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_nav_menu_mission.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_nav_menu.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_nav_menu.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\menu_access_settings_menu.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\menu\\access_settings_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_bot_nav_grips.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_bot_nav_grips.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_single_person_profile.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_single_person_profile.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_grips_24.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\ic_action_grips_24.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_bot_nav_home.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_bot_nav_home.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_settings.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_settings.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\menu_nav_menu.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\menu\\nav_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\menu_device_control_menu.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\menu\\device_control_menu.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_nav_menu_bt_connection.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_nav_menu_bt_connection.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_up_to_center.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_up_to_center.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_nav_menu_group.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_nav_menu_group.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_nav_menu.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_nav_menu.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_settings.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_settings.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_scan.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_scan.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_team_member_list_item.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\util_layouts\\layout\\team_member_list_item.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_nav_menu_asl.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_nav_menu_asl.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_scan.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_scan.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_nav_menu.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_nav_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_nav_menu_bt_connection.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nav_menu_bt_connection.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_bot_nav_grips.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_bot_nav_grips.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_nav_menu.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_nav_menu.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_device_status_24.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\ic_action_device_status_24.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_asl_24.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\ic_action_asl_24.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_nav_menu_bt_connection.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_nav_menu_bt_connection.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_single_person_profile.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_single_person_profile.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_bot_nav_home.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_bot_nav_home.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_peripheral_control.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\activities\\layout\\activity_peripheral_control.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_action_device_status.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\fragments\\layout\\fragment_action_device_status.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_megan_profile_pic.jpg.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\megan_profile_pic.jpg"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_test_icon.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_test_icon.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_up_from_center.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_up_from_center.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_scan.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_scan.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_nav_menu_bt_connection.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_nav_menu_bt_connection.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_bot_nav_asl.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_bot_nav_asl.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\activities\\navigation\\nav_graph.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_bot_nav_device_status.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_bot_nav_device_status.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_action_select_grip.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\fragments\\layout\\fragment_action_select_grip.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_settings.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_settings.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_test_icon.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_test_icon.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\menu_access_settings_menu.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\menu\\access_settings_menu.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_bot_nav_asl.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_bot_nav_asl.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_device_actions.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\activities\\layout\\activity_device_actions.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jack_profile_pic.jpg.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\jack_profile_pic.jpg"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sam_profile_pic.jpg.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-v24\\sam_profile_pic.jpg"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_team_member_list_item.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\util_layouts\\layout\\team_member_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_test_icon.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_test_icon.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_nav_menu_bt_connection.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_nav_menu_bt_connection.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_bot_nav_grips.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_bot_nav_grips.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_device_status.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_device_status.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_test_icon.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_test_icon.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_nav_menu_group.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_nav_menu_group.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_nav_menu_bt_connection.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_nav_menu_bt_connection.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_nav_menu_grips.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_nav_menu_grips.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_nav_menu_group.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nav_menu_group.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_nav_menu_mission.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_nav_menu_mission.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_single_person_profile.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_single_person_profile.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_nav_menu_grips.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nav_menu_grips.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\util_layouts\\layout\\nav_header_main.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_settings.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_settings.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_action_select_asl_sign.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\fragments\\layout\\fragment_action_select_asl_sign.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_bot_nav_home.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_bot_nav_home.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_daryl_profile_pic.jpg.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-v24\\daryl_profile_pic.jpg"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_bot_nav_device_status.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_bot_nav_device_status.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_nav_menu_mission.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_nav_menu_mission.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_nav_menu_mission.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_nav_menu_mission.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_nav_menu.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_nav_menu.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_bot_nav_home.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_bot_nav_home.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\activities\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_device_status.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_device_status.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_down_to_center.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_down_to_center.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_nav_menu_grips.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_nav_menu_grips.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_bot_nav_asl.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_bot_nav_asl.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_bot_nav_asl.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_bot_nav_asl.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_und_flame_logo.jpg.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\und_flame_logo.jpg"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_und_flame_logo.jpg.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-v24\\und_flame_logo.jpg"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_jasmyn_profile_pic.jpg.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-v24\\jasmyn_profile_pic.jpg"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_about_team.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\fragments\\layout\\fragment_about_team.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_bot_nav_asl.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_bot_nav_asl.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_about_mission.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\fragments\\layout\\fragment_about_mission.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_device_status.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_device_status.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_nav_menu_mission.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_nav_menu_mission.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sam_profile_pic.jpg.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-v24\\sam_profile_pic.jpg"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\activities\\layout\\activity_settings.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_nav_menu_group.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_nav_menu_group.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_bot_nav_device_status.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_bot_nav_device_status.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_nav_menu.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nav_menu.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_test_icon.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_test_icon.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_settings.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_settings.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_nav_menu_mission.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nav_menu_mission.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_action_device_status.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\fragments\\layout\\fragment_action_device_status.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_settings.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_settings.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_about_mission.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\fragments\\layout\\fragment_about_mission.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_settings.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_settings.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_ble_device_list_item.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\util_layouts\\layout\\ble_device_list_item.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\fragments\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_to_right.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_out_to_right.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_to_left.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_out_to_left.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_from_right.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_in_from_right.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_from_left.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_in_from_left.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_nav_menu_asl.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nav_menu_asl.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_bot_nav_home.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_bot_nav_home.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_nav_menu_mission.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_nav_menu_mission.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_down_from_center.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_down_from_center.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_device_actions.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\activities\\layout\\activity_device_actions.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\fragments\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_nav_menu_asl.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_nav_menu_asl.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_help_24_active.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\ic_action_help_24_active.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_nav_menu.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nav_menu.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_nav_menu_asl.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_nav_menu_asl.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_settings.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_settings.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_nav_menu_mission.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_nav_menu_mission.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_nav_menu_grips.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_nav_menu_grips.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_nav_menu_group.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_nav_menu_group.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_test_icon.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi-v24\\ic_test_icon.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_megan_profile_pic.jpg.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-v24\\megan_profile_pic.jpg"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_daryl_profile_pic.jpg.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-v24\\daryl_profile_pic.jpg"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_ble_device_list_item.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\util_layouts\\layout\\ble_device_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_device_status.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_device_status.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_nav_menu_bt_connection.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_nav_menu_bt_connection.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_scan.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_scan.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_connect_btle_device.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\activities\\layout\\activity_connect_btle_device.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_from_right.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_in_from_right.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_bot_nav_device_status.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_bot_nav_device_status.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_und_flame_logo.jpg.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-v24\\und_flame_logo.jpg"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_bot_nav_home.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-anydpi\\ic_action_bot_nav_home.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_bot_nav_device_status.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_bot_nav_device_status.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_bot_nav_grips.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_bot_nav_grips.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_nav_menu.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_nav_menu.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_device_status.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_device_status.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jasmyn_profile_pic.jpg.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\jasmyn_profile_pic.jpg"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_action_select_grip.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\fragments\\layout\\fragment_action_select_grip.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_nav_menu_grips.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_nav_menu_grips.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_jasmyn_profile_pic.jpg.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-v24\\jasmyn_profile_pic.jpg"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_nav_menu_asl.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_nav_menu_asl.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_bot_nav_asl.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_bot_nav_asl.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_nav_menu_mission.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_nav_menu_mission.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_nav_menu_bt_connection.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_nav_menu_bt_connection.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_single_person_profile.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_single_person_profile.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_about_team.xml.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\fragments\\layout\\fragment_about_team.xml"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_up_from_center.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\anim\\slide_up_from_center.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_jack_profile_pic.jpg.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-v24\\jack_profile_pic.jpg"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_asl_24.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\ic_action_asl_24.xml"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sam_profile_pic.jpg.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\sam_profile_pic.jpg"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_bot_nav_asl.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-hdpi\\ic_action_bot_nav_asl.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_single_person_profile.png.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_single_person_profile.png"
     },
     {
-        "merged": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_single_person_profile.png.flat",
-        "source": "C:\\Users\\Jack\\Desktop\\CSCI 493\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable-mdpi\\ic_action_single_person_profile.png"
+        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     }
 ]

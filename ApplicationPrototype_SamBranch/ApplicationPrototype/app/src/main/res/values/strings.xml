@@ -16,9 +16,10 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">UND 2020-2021 Senior Design </string>
     <string name="nav_header_group_name">Partial Hand Prosthetic Mobile App</string>
-    <string name="about_mission_label">Mission Statement</string>
+    <string name="about_mission_label">Mission</string>
     <string name="about_team_label">Team Members</string>
     <string name="bt_connect_a_device_label">Connect a Device</string>
+    <string name="action_ble_scanner_label">BLE Device Scanner</string>
     <string name="settings_label">Settings</string>
     <string name="device_status_label">Device Status: </string>
     <string name="device_status_title">Device Status</string>
