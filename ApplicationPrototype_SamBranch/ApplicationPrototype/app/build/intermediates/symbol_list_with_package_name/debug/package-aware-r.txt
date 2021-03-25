@@ -1704,6 +1704,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable fist_image
+drawable hand_image
 drawable ic_action_asl_24
 drawable ic_action_bot_nav_asl
 drawable ic_action_bot_nav_device_status
@@ -1786,7 +1788,6 @@ id FUNCTION
 id LL_action_bar
 id LL_bluetooth_enabled_switch
 id LL_bluetooth_filters_enabled_switch
-id LL_connect_device
 id LL_content
 id LL_current_scan_duration
 id LL_device_address
@@ -1859,7 +1860,6 @@ id action_context_bar
 id action_device_status
 id action_divider
 id action_grips
-id action_help
 id action_image
 id action_mainActivity_to_connectBTLEDeviceActivity
 id action_menu_divider
@@ -1920,6 +1920,8 @@ id clear_text
 id clip_horizontal
 id clip_vertical
 id clockwise
+id cmd_closed_hand
+id cmd_open_hand
 id collapseActionView
 id command_input
 id command_prompt
@@ -2176,6 +2178,8 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id select_grip_option_container
+id select_image_tv
 id selected
 id selection_type
 id send_command_btn

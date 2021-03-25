@@ -39,7 +39,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.bluetooth.php.ui.ConnectBTLEDeviceActivity" >
+        <activity android:name="com.bluetooth.php.ui.device_control.ConnectBTLEDeviceActivity" >
         </activity>
         <activity
             android:name="com.bluetooth.php.ui.PeripheralControlActivity"
@@ -47,11 +47,11 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.bluetooth.php.ui.DeviceActionsActivity"
+            android:name="com.bluetooth.php.ui.device_control.DeviceActionsActivity"
             android:label="Device Control"
             android:screenOrientation="portrait" >
         </activity>
-        <activity android:name="com.bluetooth.php.ui.SettingsActivity" >
+        <activity android:name="com.bluetooth.php.util.SettingsActivity" >
         </activity>
 
         <service

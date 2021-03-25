@@ -69,9 +69,9 @@
 39-->C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:29:27-74
 40            </intent-filter>
 41        </activity>
-42        <activity android:name="com.bluetooth.php.ui.ConnectBTLEDeviceActivity" >
+42        <activity android:name="com.bluetooth.php.ui.device_control.ConnectBTLEDeviceActivity" >
 42-->C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:33:9-35:20
-42-->C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:34:13-74
+42-->C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:34:13-89
 43        </activity>
 44        <activity
 44-->C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:37:9-41:20
@@ -84,16 +84,16 @@
 48        </activity>
 49        <activity
 49-->C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:42:9-46:20
-50            android:name="com.bluetooth.php.ui.DeviceActionsActivity"
-50-->C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:43:13-53
+50            android:name="com.bluetooth.php.ui.device_control.DeviceActionsActivity"
+50-->C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:43:13-68
 51            android:label="Device Control"
 51-->C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:44:13-43
 52            android:screenOrientation="portrait" >
 52-->C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:45:13-49
 53        </activity>
-54        <activity android:name="com.bluetooth.php.ui.SettingsActivity" >
+54        <activity android:name="com.bluetooth.php.util.SettingsActivity" >
 54-->C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:47:9-49:20
-54-->C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:48:13-48
+54-->C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:48:13-50
 55        </activity>
 56
 57        <service

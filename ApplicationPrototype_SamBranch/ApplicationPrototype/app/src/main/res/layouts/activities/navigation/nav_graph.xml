@@ -28,7 +28,7 @@
         android:label="AboutTeamFragment" />
     <activity
         android:id="@+id/connectBTLEDeviceActivity"
-        android:name="com.bluetooth.php.ui.ConnectBTLEDeviceActivity"
+        android:name="com.bluetooth.php.ui.device_control.ConnectBTLEDeviceActivity"
         android:label="activity_connect_btle_device"
         tools:layout="@layout/activity_connect_btle_device" >
         <action
@@ -39,12 +39,12 @@
     </activity>
     <activity
         android:id="@+id/settingsActivity"
-        android:name="com.bluetooth.php.ui.SettingsActivity"
+        android:name="com.bluetooth.php.util.SettingsActivity"
         android:label="activity_settings"
         tools:layout="@layout/activity_settings" />
     <activity
         android:id="@+id/deviceActionsActivity"
-        android:name="com.bluetooth.php.ui.DeviceActionsActivity"
+        android:name="com.bluetooth.php.ui.device_control.DeviceActionsActivity"
         android:label="activity_device_actions"
         tools:layout="@layout/activity_device_actions" />
     <fragment

@@ -79,36 +79,36 @@
             android:textSize="14sp" />
 
     </LinearLayout>
-    <LinearLayout
-        android:id="@+id/LL_connect_device"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_below="@+id/LL_device_status"
-        >
-        <Button
-            android:id="@+id/btnConnect"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/connect_device_label"
-            android:backgroundTint="@color/teal_700"
-            android:layout_marginRight="@dimen/activity_vertical_margin"
-            android:layout_marginLeft="@dimen/activity_vertical_margin"
-            />
-        <TextView
-            android:id="@+id/msgTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:text="msgTextView" />
-    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:id="@+id/LL_connect_device"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_below="@+id/LL_device_status"-->
+<!--        >-->
+<!--        <Button-->
+<!--            android:id="@+id/btnConnect"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/connect_device_label"-->
+<!--            android:backgroundTint="@color/teal_700"-->
+<!--            android:layout_marginRight="@dimen/activity_vertical_margin"-->
+<!--            android:layout_marginLeft="@dimen/activity_vertical_margin"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/msgTextView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:text="msgTextView" />-->
+<!--    </LinearLayout>-->
     <RelativeLayout
         android:id="@+id/RL_device_gatt_profile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/LL_connect_device"
+        android:layout_below="@id/LL_device_status"
         android:layout_marginBottom="@dimen/action_bar_vertical_height"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin"

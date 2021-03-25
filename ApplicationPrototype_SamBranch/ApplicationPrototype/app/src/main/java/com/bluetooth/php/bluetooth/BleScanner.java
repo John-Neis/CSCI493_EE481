@@ -12,7 +12,6 @@ import android.content.Intent;
 import android.os.Handler;
 import android.util.Log;
 
-import com.bluetooth.php.ui.ConnectBTLEDeviceActivity;
 import com.bluetooth.php.util.AppDataSingleton;
 import com.bluetooth.php.util.Constants;
 
