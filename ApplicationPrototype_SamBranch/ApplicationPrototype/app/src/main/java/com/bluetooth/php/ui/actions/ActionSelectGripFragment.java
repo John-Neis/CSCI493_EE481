@@ -61,6 +61,7 @@ public class ActionSelectGripFragment extends Fragment {
         if(select_grip_option_container != null) {
             select_grip_option_container.setVisibility(View.INVISIBLE);
         }
+
     }
     private void onClick(View view){
         String command_data;
@@ -101,6 +102,6 @@ public class ActionSelectGripFragment extends Fragment {
                     }
                 });
             }
-        }, 400);
+        }, 200);
     }
 }

@@ -99,6 +99,8 @@ public class DeviceActionsActivity extends AppCompatActivity{
                     Log.d(Constants.TAG, "GATT Disconnected");
                     showMsg("GATT DISCONNECTED");
                     ActionSelectGripFragment.updateViewOnDisconnect();
+                    ActionDeviceStatusFragment.updateView(false, false);
+                    onDisconnect();
                     break;
                 case BleAdapterService.GATT_SERVICES_DISCOVERED:
                     Log.d(Constants.TAG, "GATT Services Discovered");
@@ -180,7 +182,11 @@ public class DeviceActionsActivity extends AppCompatActivity{
 
     @Override
     public void onBackPressed() {
+        Log.d(Constants.TAG, "System Back Pressed");
         super.onBackPressed();
+        if(gattConnected){
+            onDisconnect();
+        }
     }
 
     @Override
@@ -192,7 +198,6 @@ public class DeviceActionsActivity extends AppCompatActivity{
         startActivity(new Intent(this, ConnectBTLEDeviceActivity.class));
         overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
         return super.onOptionsItemSelected(item);
-
     }
 
     @SuppressLint("NonConstantResourceId")
