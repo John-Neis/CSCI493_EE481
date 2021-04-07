@@ -11,32 +11,40 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/select_grip_option_container">
-        <TextView
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Select an Image"
-            android:textSize="18sp"
-            android:textColor="@color/DarkBlueGray"
-            android:id="@+id/select_image_tv"
-            android:gravity="center"/>
+            android:layout_height="match_parent"
+            android:id="@+id/grip_scroll_view">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Select an Image"
+                        android:textSize="18sp"
+                        android:textColor="@color/DarkBlueGray"
+                        android:id="@+id/select_image_tv"
+                        android:gravity="center"/>
 
-        <ImageView
-            android:layout_width="175dp"
-            android:layout_height="175dp"
-            android:src="@drawable/hand_image"
-            android:layout_below="@id/select_image_tv"
-            android:id="@+id/cmd_open_hand"
-            android:layout_alignLeft="@id/select_image_tv" />
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:src="@drawable/hand_image"
+                        android:layout_below="@id/select_image_tv"
+                        android:id="@+id/cmd_open_hand"
+                        android:layout_alignLeft="@id/select_image_tv" />
 
-        <ImageView
-            android:layout_width="175dp"
-            android:layout_height="175dp"
-            android:src="@drawable/fist_image"
-            android:layout_below="@+id/select_image_tv"
-            android:layout_toRightOf="@id/cmd_open_hand"
-            android:id="@+id/cmd_closed_hand"
-            android:layout_alignRight="@id/select_image_tv" />
-
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:src="@drawable/fist_image"
+                        android:layout_below="@+id/select_image_tv"
+                        android:layout_toRightOf="@id/cmd_open_hand"
+                        android:id="@+id/cmd_closed_hand"
+                        android:layout_alignRight="@id/select_image_tv" />
+            </RelativeLayout>
+        </ScrollView>
     </RelativeLayout>
 
 </RelativeLayout>

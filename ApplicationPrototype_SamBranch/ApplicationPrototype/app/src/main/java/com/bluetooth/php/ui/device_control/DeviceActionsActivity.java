@@ -99,6 +99,7 @@ public class DeviceActionsActivity extends AppCompatActivity{
                     Log.d(Constants.TAG, "GATT Disconnected");
                     showMsg("GATT DISCONNECTED");
                     ActionSelectGripFragment.updateViewOnDisconnect();
+                    ActionSelectASLSignFragment.updateViewOnDisconnect();
                     ActionDeviceStatusFragment.updateView(false, false);
                     onDisconnect();
                     break;
@@ -117,6 +118,7 @@ public class DeviceActionsActivity extends AppCompatActivity{
                         showMsg("Device Has Expected Services");
                         ActionDeviceStatusFragment.updateView(gattConnected, true);
                         ActionSelectGripFragment.updateViewOnConnect();
+                        ActionSelectASLSignFragment.updateViewOnConnect();
                     }else{
                         showMsg("Device Does Not Have Expected Services");
                     }

@@ -44,4 +44,31 @@
     <string name="device_name_title">Device Name</string>
     <string name="device_name_label">Device Name: </string>
 
+    <string name="asl_list_label">ASL</string>
+    <string name="A_label">A</string>
+    <string name="B_label">B</string>
+    <string name="C_label">C</string>
+    <string name="D_label">D</string>
+    <string name="E_label">E</string>
+    <string name="F_label">F</string>
+    <string name="G_label">G</string>
+    <string name="H_label">H</string>
+    <string name="I_label">I</string>
+    <string name="J_label">J</string>
+    <string name="K_label">K</string>
+    <string name="L_label">L</string>
+    <string name="M_label">M</string>
+    <string name="N_label">N</string>
+    <string name="O_label">O</string>
+    <string name="P_label">P</string>
+    <string name="Q_label">Q</string>
+    <string name="R_label">R</string>
+    <string name="S_label">S</string>
+    <string name="T_label">T</string>
+    <string name="U_label">U</string>
+    <string name="V_label">V</string>
+    <string name="W_label">W</string>
+    <string name="X_label">X</string>
+    <string name="Y_label">Y</string>
+    <string name="Z_label">Z</string>
 </resources>
