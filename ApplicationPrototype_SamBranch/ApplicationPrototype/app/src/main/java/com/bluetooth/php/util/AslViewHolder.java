@@ -4,10 +4,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bluetooth.php.R;
+import com.bluetooth.php.ui.actions.ActionSelectASLSignFragment;
 
 public class AslViewHolder extends RecyclerView.ViewHolder {
     TextView asl_letter;
@@ -21,6 +23,7 @@ public class AslViewHolder extends RecyclerView.ViewHolder {
 
     public void onClick(View view){
         int pos = getLayoutPosition();
-        Log.d(Constants.TAG, "Item clicked : " + asl_letter.getText() );
+        Log.d(Constants.TAG, "Item clicked : " + asl_letter.getText().toString());
+        ActionSelectASLSignFragment.sendAslCommand(asl_letter.getText().toString());
     }
 }

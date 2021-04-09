@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bluetooth.php.R;
+import com.bluetooth.php.bluetooth.BleAdapterService;
 import com.bluetooth.php.ui.device_control.DeviceActionsActivity;
 import com.bluetooth.php.util.AslSignAdapter;
 import com.bluetooth.php.util.Constants;
@@ -22,6 +23,7 @@ import com.bluetooth.php.util.Datasource;
 import java.util.List;
 
 public class ActionSelectASLSignFragment extends Fragment {
+    private static BleAdapterService bluetooth_le_adapter;
     View view;
     List<Sign> signList;
     TextView listSize;
@@ -40,7 +42,7 @@ public class ActionSelectASLSignFragment extends Fragment {
         AslSignAdapter adapter = new AslSignAdapter(signList, getContext());
         AslRecyclerView.setAdapter(adapter);
         AslRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-
+        bluetooth_le_adapter = DeviceActionsActivity.getBluetoothLeAdapter();;
 
         if(DeviceActionsActivity.isGattConnected() && DeviceActionsActivity.isControlServicePresent()){
             AslRecyclerView.setVisibility(View.VISIBLE);
@@ -61,5 +63,10 @@ public class ActionSelectASLSignFragment extends Fragment {
         if(AslRecyclerView != null){
             AslRecyclerView.setVisibility(View.INVISIBLE);
         }
+    }
+    public static void sendAslCommand(String letter){
+        String commandString = Datasource.getAslCommand(letter);
+        bluetooth_le_adapter.writeCharacteristic(BleAdapterService.PHP_CONTROL_SERVICE, BleAdapterService.PHP_WRITE_CHARACTERISTIC, commandString.getBytes());
+
     }
 }

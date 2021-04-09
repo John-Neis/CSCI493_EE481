@@ -3,8 +3,8 @@ com/bluetooth/php/ui/actions/HomeFragment.java
 com/bluetooth/php/audio/AlarmManager.java
  com.bluetooth.php.audio.AlarmManager
  com.bluetooth.php.audio.AlarmManager$1
-com/bluetooth/php/util/Datasource.java
- com.bluetooth.php.util.Datasource
+com/bluetooth/php/ui/actions/Sign.java
+ com.bluetooth.php.ui.actions.Sign
 com/bluetooth/php/util/AppDataSingleton.java
  com.bluetooth.php.util.AppDataSingleton
 com/bluetooth/php/bluetooth/BleAdapterService.java
@@ -61,16 +61,16 @@ com/bluetooth/php/ui/device_control/ConnectBTLEDeviceActivity.java
  com.bluetooth.php.ui.device_control.ConnectBTLEDeviceActivity$5
  com.bluetooth.php.ui.device_control.ConnectBTLEDeviceActivity$ListAdapter
  com.bluetooth.php.ui.device_control.ConnectBTLEDeviceActivity$ViewHolder
-com/bluetooth/php/ui/actions/Sign.java
- com.bluetooth.php.ui.actions.Sign
-com/bluetooth/php/ui/actions/ActionSelectASLSignFragment.java
- com.bluetooth.php.ui.actions.ActionSelectASLSignFragment
+com/bluetooth/php/util/Datasource.java
+ com.bluetooth.php.util.Datasource
+com/bluetooth/php/util/AslViewHolder.java
+ com.bluetooth.php.util.AslViewHolder
 com/bluetooth/php/ui/device_control/DeviceActionsActivity.java
  com.bluetooth.php.ui.device_control.DeviceActionsActivity
  com.bluetooth.php.ui.device_control.DeviceActionsActivity$1
  com.bluetooth.php.ui.device_control.DeviceActionsActivity$2
  com.bluetooth.php.ui.device_control.DeviceActionsActivity$3
-com/bluetooth/php/util/AslViewHolder.java
- com.bluetooth.php.util.AslViewHolder
 com/bluetooth/php/util/AslSignAdapter.java
  com.bluetooth.php.util.AslSignAdapter
+com/bluetooth/php/ui/actions/ActionSelectASLSignFragment.java
+ com.bluetooth.php.ui.actions.ActionSelectASLSignFragment

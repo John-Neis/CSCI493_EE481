@@ -38,4 +38,89 @@ public class Datasource {
         signs.add(new Sign(R.string.Z_label, R.drawable.z_image));
         return signs;
     }
+
+    public static String getAslCommand(String letter){
+        String command = "";
+        switch(letter){
+            case "A":
+                command = "001";
+                break;
+            case "B":
+                command = "002";
+                break;
+            case "C":
+                command = "003";
+                break;
+            case "D":
+                command = "004";
+                break;
+            case "E":
+                command = "005";
+                break;
+            case "F":
+                command = "006";
+                break;
+            case "G":
+                command = "007";
+                break;
+            case "H":
+                command = "008";
+                break;
+            case "I":
+                command = "009";
+                break;
+            case "J":
+                command = "010";
+                break;
+            case "K":
+                command = "011";
+                break;
+            case "L":
+                command = "012";
+                break;
+            case "M":
+                command = "013";
+                break;
+            case "N":
+                command = "014";
+                break;
+            case "O":
+                command = "015";
+                break;
+            case "P":
+                command = "016";
+                break;
+            case "Q":
+                command = "017";
+                break;
+            case "R":
+                command = "018";
+                break;
+            case "S":
+                command = "019";
+                break;
+            case "T":
+                command = "020";
+                break;
+            case "U":
+                command = "021";
+                break;
+            case "V":
+                command = "022";
+                break;
+            case "W":
+                command = "023";
+                break;
+            case "X":
+                command = "024";
+                break;
+            case "Y":
+                command = "025";
+                break;
+            case "Z":
+                command = "026";
+                break;
+        }
+        return command;
+    }
 }
