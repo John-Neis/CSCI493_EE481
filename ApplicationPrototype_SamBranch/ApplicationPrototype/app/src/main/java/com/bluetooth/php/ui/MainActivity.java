@@ -1,14 +1,12 @@
 package com.bluetooth.php.ui;
 
 import android.annotation.SuppressLint;
-import android.app.ActivityOptions;
 import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
-import android.view.animation.AnimationSet;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -19,15 +17,15 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentActivity;
 
 import com.bluetooth.php.ui.actions.HomeFragment;
+import com.bluetooth.php.ui.device_control.ConnectBTLEDeviceActivity;
 import com.bluetooth.php.util.Constants;
 import com.bluetooth.php.ui.about.AboutMissionFragment;
 import com.bluetooth.php.ui.about.AboutTeamFragment;
-import com.bluetooth.php.ui.actions.ActionDeviceStatusFragment;
 import com.bluetooth.php.bluetooth.BTStateBroadcastReceiver;
 import com.bluetooth.php.R;
 import com.bluetooth.php.util.AppDataSingleton;
+import com.bluetooth.php.util.SettingsActivity;
 import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.snackbar.BaseTransientBottomBar;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private AppDataSingleton shared_data;

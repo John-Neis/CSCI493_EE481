@@ -33,12 +33,11 @@ public class BleAdapterService extends Service {
     private BluetoothDevice device;
     private BluetoothGattDescriptor descriptor;
     private final IBinder binder = new LocalBinder();
+    private boolean connected = false;
 
     public boolean isConnected() {
         return connected;
     }
-
-    private boolean connected = false;
 
     // messages sent back to activity
     public static final int GATT_CONNECTED = 1;
@@ -57,6 +56,13 @@ public class BleAdapterService extends Service {
     public static final String PARCEL_VALUE = "VALUE";
     public static final String PARCEL_RSSI = "RSSI";
     public static final String PARCEL_TEXT = "TEXT";
+
+    //PHP service uuids
+    public static String PHP_CONTROL_SERVICE = "00001101-0000-1000-8000-00805f9b34fb";
+
+    //PHP service Characteristics
+    public static String PHP_WRITE_CHARACTERISTIC = "00001142-0000-1000-8000-00805f9b34fb";
+    public static String PHP_READ_CHARACTERISTIC = "00001143-0000-1000-8000-00805f9b34fb";
 
     // service uuids
     public static String IMMEDIATE_ALERT_SERVICE_UUID = "00001802-0000-1000-8000-00805F9B34FB";

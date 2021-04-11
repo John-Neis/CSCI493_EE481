@@ -1,12 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    tools:context="ui.actions.ActionSelectGripFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TEST SELECT GRIPS FRAGMENT"
-        android:textSize="48sp"/>
+        android:id="@+id/select_grip_option_container">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/grip_scroll_view">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Select an Image"
+                        android:textSize="18sp"
+                        android:textColor="@color/DarkBlueGray"
+                        android:id="@+id/select_image_tv"
+                        android:gravity="center"/>
+
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:src="@drawable/hand_image"
+                        android:layout_below="@id/select_image_tv"
+                        android:id="@+id/cmd_open_hand"
+                        android:layout_alignLeft="@id/select_image_tv" />
+
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:src="@drawable/fist_image"
+                        android:layout_below="@+id/select_image_tv"
+                        android:layout_toRightOf="@id/cmd_open_hand"
+                        android:id="@+id/cmd_closed_hand"
+                        android:layout_alignRight="@id/select_image_tv" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
 </RelativeLayout>

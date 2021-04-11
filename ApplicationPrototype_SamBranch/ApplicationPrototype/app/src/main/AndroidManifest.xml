@@ -31,7 +31,7 @@
         </activity>
 
         <activity
-            android:name="com.bluetooth.php.ui.ConnectBTLEDeviceActivity">
+            android:name="com.bluetooth.php.ui.device_control.ConnectBTLEDeviceActivity">
         </activity>
 
         <activity
@@ -40,12 +40,12 @@
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".ui.DeviceActionsActivity"
-            android:label="Label TBD"
+            android:name=".ui.device_control.DeviceActionsActivity"
+            android:label="Device Control"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".ui.SettingsActivity">
+            android:name=".util.SettingsActivity">
         </activity>
         <service
             android:name="com.bluetooth.php.bluetooth.BleAdapterService"

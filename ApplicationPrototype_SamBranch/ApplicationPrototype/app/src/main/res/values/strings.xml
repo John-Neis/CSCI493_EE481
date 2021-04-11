@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">PHP Partner App Prototype</string>
-    <string name="version">Version 0.8</string>
+    <string name="version">Version 1.0</string>
     <string name="device_pairing">Device Pairing</string>
     <string name="pre_made_grips">Grips</string>
     <string name="asl">ASL Signs</string>
@@ -11,26 +11,26 @@
                                     prosthetic device using a Bluetooth Low Energy Connection.
                                     This application will enable a user to control the device via
                                     commands that will perform predetermined grips.</string>
-
-
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">UND 2020-2021 Senior Design </string>
     <string name="nav_header_group_name">Partial Hand Prosthetic Mobile App</string>
-    <string name="about_mission_label">Mission Statement</string>
+    <string name="about_mission_label">Mission</string>
     <string name="about_team_label">Team Members</string>
     <string name="bt_connect_a_device_label">Connect a Device</string>
+    <string name="action_ble_scanner_label">BLE Device Scanner</string>
     <string name="settings_label">Settings</string>
     <string name="device_status_label">Device Status: </string>
     <string name="device_status_title">Device Status</string>
     <string name="select_grip_label">Grip Commands</string>
     <string name="select_asl_sign_label">ASL Commands</string>
-    <string name="connected">connected</string>
-    <string name="disconnected">disconnected</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
     <string name="no_data">no data found</string>
     <string name="enable_bluetooth">Enable Bluetooth</string>
     <string name="screen_title_main">Device List</string>
     <string name="action_settings">Settings</string>
     <string name="connect_device_label">Connect Device</string>
+    <string name="disconnect_device_label">Disconnect Device</string>
     <string name="status_label">Status</string>
     <string name="home_label">Home - How To Use This App</string>
     <string name="grips_label">Grips</string>
@@ -44,4 +44,31 @@
     <string name="device_name_title">Device Name</string>
     <string name="device_name_label">Device Name: </string>
 
+    <string name="asl_list_label">ASL</string>
+    <string name="A_label">A</string>
+    <string name="B_label">B</string>
+    <string name="C_label">C</string>
+    <string name="D_label">D</string>
+    <string name="E_label">E</string>
+    <string name="F_label">F</string>
+    <string name="G_label">G</string>
+    <string name="H_label">H</string>
+    <string name="I_label">I</string>
+    <string name="J_label">J</string>
+    <string name="K_label">K</string>
+    <string name="L_label">L</string>
+    <string name="M_label">M</string>
+    <string name="N_label">N</string>
+    <string name="O_label">O</string>
+    <string name="P_label">P</string>
+    <string name="Q_label">Q</string>
+    <string name="R_label">R</string>
+    <string name="S_label">S</string>
+    <string name="T_label">T</string>
+    <string name="U_label">U</string>
+    <string name="V_label">V</string>
+    <string name="W_label">W</string>
+    <string name="X_label">X</string>
+    <string name="Y_label">Y</string>
+    <string name="Z_label">Z</string>
 </resources>
