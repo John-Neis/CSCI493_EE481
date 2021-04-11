@@ -3,10 +3,12 @@
 // PID: 0x805a
 // SN: 88F69516B1B6F281
 
+#include <Servo.h>
 #include <ArduinoBLE.h>
 #define LED_PIN 13
 #define WRITE_BUFFER_SIZE 256
 #define WRITE_BUFFER_FIXED_LENGTH false
+#define CMD_OVERRIDE 251
 
 const char* nameOfPeripheral = "PHP Controller";
 const char* uuidOfService    = "00001101-0000-1000-8000-00805f9b34fb";
@@ -17,12 +19,17 @@ BLEService handService(uuidOfService);
 BLECharacteristic rxChar(uuidOfRxChar, BLEWriteWithoutResponse | BLEWrite, WRITE_BUFFER_SIZE, WRITE_BUFFER_FIXED_LENGTH);
 BLEByteCharacteristic txChar(uuidOfTxChar, BLERead | BLENotify | BLEBroadcast);
 
+Servo myservo; int target_pos_ms = 0; int current_pos_ms = 1000; int step_pos_ms = 0; int delay_ms = 0;
+int ble_override = 0;
 //short sampleBuffer[256];
 
 //volatile int samplesRead;
 
 void setup() {
   // Start Serial
+  myservo.attach(D6);
+  myservo.writeMicroseconds(current_pos_ms);
+  
   Serial.begin(9600);
 
   // Ensure Serial port is ready
@@ -62,6 +69,7 @@ void setup() {
 }
 
 void loop() {
+   
   BLEDevice central = BLE.central();
 
   if(central)
@@ -71,18 +79,10 @@ void loop() {
     {
       connectedLight();
 
-      // Arduino -> Phone communication code goes here
-      // This is just example code
-      /*if(samplesRead)
+      if(ble_override)
       {
-        // print samples to serial monitor / plotter
-        for(int i = 0; i < samplesRead; i++)
-        {
-          txChar.writeValue(sampleBuffer[i]);
-        }
-        //clear read count
-        samplesRead = 0;
-      }*/
+        move_finger(target_pos_ms, step_pos_ms, delay_ms);
+      }
     }
   }
   else
@@ -120,16 +120,82 @@ void onBLEDisconnect(BLEDevice central)
 
 void onRxCharValueUpdate(BLEDevice central, BLECharacteristic characteristic)
 {
+  //int target_pos_ms = 0; int current_pos_ms = 0; int step_pos_ms = 0; int delay_ms = 0;
   Serial.print("Characteristic event, read: ");
-  byte test[256];
-  int dataLength = rxChar.readValue(test, 256);
-
+  byte msg_buffer[256];
+  
+  char cmd_byte[256];
+  char finger[1];
+  char target[256];
+  char stepsize[256];
+  char delaylength[256];
+  
+  char* args[5] = {cmd_byte, finger, target, stepsize, delaylength};
+  
+  int dataLength = rxChar.readValue(msg_buffer, 256);
+  int arg_counter = 0;
+  int arg_index = 0;
+  
   for(int i = 0; i < dataLength; i++)
   {
-    Serial.print((char)test[i]);
+    if(msg_buffer[i] == ' ') {
+      args[arg_counter][arg_index] = '\0';
+      
+      arg_counter++;
+      arg_index = 0;
+      continue;
+    }
+    if(arg_counter == 5) {
+      break;
+    }
+    args[arg_counter][arg_index++] = msg_buffer[i];
   }
-  Serial.println();
+  int cmd = atoi(cmd_byte); int target_pos = atoi(target);
+  int stepping = atoi(stepsize); int delayms = atoi(delaylength);
+
+  if(cmd == CMD_OVERRIDE) {
+    ble_override = 1;
+    target_pos_ms = target_pos;
+    step_pos_ms = stepping;
+    delay_ms = delayms;
+  }
+  Serial.print("Recieved: ") Serial.println(msg_buffer);
+  Serial.print("\nCommand byte: "); Serial.println(cmd);
+  Serial.print("Target byte: "); Serial.println(target_pos);
+  Serial.print("Step size: "); Serial.println(stepping);
+  Serial.print("Delay (MS): "); Serial.println(delayms);
   Serial.print("Value length: "); Serial.println(rxChar.valueLength());
+}
+
+void move_finger(int target, int step_ms, int time_delay) {
+
+  if(target < current_pos_ms) {
+    Serial.println("step is negative");
+    step_ms *= -1; // If target is less than current, need to step backwards.
+  }
+  
+  while(current_pos_ms != target) {
+    if(current_pos_ms < target && current_pos_ms + step_ms > target) {
+      current_pos_ms = target;
+      myservo.writeMicroseconds(current_pos_ms);
+      Serial.print("Servo written: "); Serial.println(current_pos_ms);
+      delay(time_delay);
+      break;
+    }
+
+    if(current_pos_ms > target && current_pos_ms + step_ms < target) {
+      current_pos_ms = target;
+      myservo.writeMicroseconds(current_pos_ms);
+      Serial.print("Servo written: "); Serial.println(current_pos_ms);
+      delay(time_delay);
+      break;
+    }
+    
+    current_pos_ms += step_ms;
+    myservo.writeMicroseconds(current_pos_ms);
+    Serial.print("Servo written: "); Serial.println(current_pos_ms);
+    delay(time_delay);
+  }
 }
 
 /*
