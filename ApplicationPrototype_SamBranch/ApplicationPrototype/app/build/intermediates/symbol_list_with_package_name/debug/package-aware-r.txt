@@ -1955,7 +1955,6 @@ id command_input
 id command_prompt
 id confirm_button
 id connectBTLEDeviceActivity
-id connectButton
 id container
 id content
 id contentPanel
@@ -2039,7 +2038,6 @@ id groups
 id guideline
 id header_title
 id hideable
-id highButton
 id home
 id homeAsUp
 id homeFragment
@@ -2068,7 +2066,6 @@ id line3
 id linear
 id listMode
 id list_item
-id lowButton
 id mainActivity
 id masked
 id material_clock_display
@@ -2091,7 +2088,6 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id message
-id midButton
 id middle
 id mini
 id month_grid
@@ -2126,7 +2122,6 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id nameTextView
 id nav_controller_view_tag
 id nav_graph
 id nav_host_fragment_container
@@ -2139,7 +2134,6 @@ id nav_view
 id navigation_header_container
 id never
 id noScroll
-id noiseButton
 id none
 id normal
 id notification_background
@@ -2173,7 +2167,6 @@ id prospective_device_address
 id prospective_device_name
 id radio
 id ratio
-id rectangle
 id rectangles
 id reverseSawtooth
 id right
@@ -2182,7 +2175,6 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
-id rssiTextView
 id saveDataBtn
 id save_non_transition_alpha
 id save_overlay_view
@@ -2248,8 +2240,6 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
-id switch1
-id switch2
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2265,8 +2255,6 @@ id team_member_pic
 id team_member_role
 id team_members_lv
 id team_number_tv
-id temperatureLabel
-id temperatureValue
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -2383,7 +2371,6 @@ layout abc_tooltip
 layout activity_connect_btle_device
 layout activity_device_actions
 layout activity_main
-layout activity_peripheral_control
 layout activity_settings
 layout asl_sign_list_item
 layout ble_device_list_item
@@ -2582,6 +2569,7 @@ string icon_content_description
 string instruction_1_label
 string instruction_2_label
 string instruction_3_label
+string instruction_4_label
 string item_view_role_description
 string material_clock_display_divider
 string material_clock_toggle_content_description

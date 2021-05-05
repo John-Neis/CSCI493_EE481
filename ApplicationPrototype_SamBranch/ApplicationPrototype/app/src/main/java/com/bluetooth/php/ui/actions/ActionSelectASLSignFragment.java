@@ -45,9 +45,11 @@ public class ActionSelectASLSignFragment extends Fragment {
         bluetooth_le_adapter = DeviceActionsActivity.getBluetoothLeAdapter();;
 
         if(DeviceActionsActivity.isGattConnected() && DeviceActionsActivity.isControlServicePresent()){
+            Log.d(Constants.TAG, "ASL Recycler View Visible");
             AslRecyclerView.setVisibility(View.VISIBLE);
         }
         else{
+            Log.d(Constants.TAG, "ASL Recycler View NOT Visible");
             AslRecyclerView.setVisibility(View.INVISIBLE);
         }
 

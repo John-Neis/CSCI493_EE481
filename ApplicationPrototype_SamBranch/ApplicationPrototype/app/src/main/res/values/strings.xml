@@ -37,9 +37,10 @@
     <string name="asl_label">ASL</string>
     <string name="bluetooth_device_scanning_label">Bluetooth Device Scanning</string>
     <string name="help_label">Help</string>
-    <string name="instruction_1_label">1. Open the Navigation Menu by pressing the three horizontal lines in the upper left corner.</string>
-    <string name="instruction_2_label">2. Select an option from the list of menu items.</string>
-    <string name="instruction_3_label">3. To begin scanning for a device, press the "connect a device" option to open the device scanner.</string>
+    <string name="instruction_1_label">1. Open the Navigation Menu by pressing the three horizontal lines in the upper left corner to view the list of menu items.</string>
+    <string name="instruction_2_label">2. To begin scanning for a device, select the \"BLE Device Scanner\" option from the menu and press the \"Find BLE Devices\" button.</string>
+    <string name="instruction_3_label">3. Once the PHP Controller Device is found, you can select that device and then press \"Connect Device\" on the next screen. </string>
+    <string name="instruction_4_label">4. You can now navigate using the bottom nav menu to send commands to the device by selecting an image with the desired grip or sign.</string>
     <string name="not_connected_label">Not Connected</string>
     <string name="device_name_title">Device Name</string>
     <string name="device_name_label">Device Name: </string>

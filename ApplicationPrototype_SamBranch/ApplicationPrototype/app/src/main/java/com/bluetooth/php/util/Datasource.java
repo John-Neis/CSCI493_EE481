@@ -38,18 +38,29 @@ public class Datasource {
         signs.add(new Sign(R.string.Z_label, R.drawable.z_image));
         return signs;
     }
-
+    public static String getGripCommand(String grip){
+        String command = "";
+        switch(grip){
+            case "openHand":
+                    command = "251 2 1000 1000 2 100";
+                break;
+            case "closedHand":
+                    command = "251 2 2000 2000 2 100";
+                break;
+        }
+        return command;
+    }
     public static String getAslCommand(String letter){
         String command = "";
         switch(letter){
             case "A":
-                command = "001";
+                command = "251 2 2000 2000 2 1000";
                 break;
             case "B":
-                command = "002";
+                command = "251 2 1000 1000 2 100";
                 break;
             case "C":
-                command = "003";
+                command = "251 2 1500 1500 2 100";
                 break;
             case "D":
                 command = "004";

@@ -100,10 +100,6 @@
         "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\drawable\\i_image.jpg"
     },
     {
-        "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_peripheral_control.xml.flat",
-        "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\activities\\layout\\activity_peripheral_control.xml"
-    },
-    {
         "merged": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_action_select_asl_sign.xml.flat",
         "source": "C:\\Users\\sdres\\OneDrive\\UND\\Spring2021\\Senior Design\\CSCI493_EE481\\ApplicationPrototype_SamBranch\\ApplicationPrototype\\app\\src\\main\\res\\layouts\\fragments\\layout\\fragment_action_select_asl_sign.xml"
     },

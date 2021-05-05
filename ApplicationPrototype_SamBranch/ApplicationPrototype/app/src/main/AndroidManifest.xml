@@ -15,7 +15,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_round"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -32,12 +32,6 @@
 
         <activity
             android:name="com.bluetooth.php.ui.device_control.ConnectBTLEDeviceActivity">
-        </activity>
-
-        <activity
-            android:name="com.bluetooth.php.ui.PeripheralControlActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".ui.device_control.DeviceActionsActivity"

@@ -16,6 +16,7 @@ import androidx.fragment.app.Fragment;
 import com.bluetooth.php.R;
 import com.bluetooth.php.bluetooth.BleAdapterService;
 import com.bluetooth.php.ui.device_control.DeviceActionsActivity;
+import com.bluetooth.php.util.Datasource;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -71,7 +72,7 @@ public class ActionSelectGripFragment extends Fragment {
 
                 image_click_effect(cmd_img_1);
                 Toast.makeText(getContext(), "Sending CMD 1", Toast.LENGTH_SHORT).show();
-                command_data = "CMD 1";
+                command_data = Datasource.getGripCommand("openHand");
                 bluetooth_le_adapter.writeCharacteristic(BleAdapterService.PHP_CONTROL_SERVICE, BleAdapterService.PHP_WRITE_CHARACTERISTIC, command_data.getBytes());
                 break;
 
@@ -79,7 +80,7 @@ public class ActionSelectGripFragment extends Fragment {
 
                 image_click_effect(cmd_img_2);
                 Toast.makeText(getContext(), "Sending CMD 2", Toast.LENGTH_SHORT).show();
-                command_data = "CMD 2";
+                command_data = Datasource.getGripCommand("closedHand");
                 bluetooth_le_adapter.writeCharacteristic(BleAdapterService.PHP_CONTROL_SERVICE, BleAdapterService.PHP_WRITE_CHARACTERISTIC, command_data.getBytes());
                 break;
 

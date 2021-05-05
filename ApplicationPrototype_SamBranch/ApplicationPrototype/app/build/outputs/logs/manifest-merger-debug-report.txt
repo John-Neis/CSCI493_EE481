@@ -103,7 +103,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] D:\Programs
 	android:label
 		ADDED from C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:19:9-41
 	android:icon
-		ADDED from C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:18:9-43
+		ADDED from C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:18:9-49
 	android:allowBackup
 		ADDED from C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\CSCI493_EE481\ApplicationPrototype_SamBranch\ApplicationPrototype\app\src\main\AndroidManifest.xml:17:9-35
 	android:theme
