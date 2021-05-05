@@ -97,6 +97,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="imagePath" value="C:\Users\sdres\OneDrive\UND\Spring2021\Senior Design\php_controller.jpg" />
+                                                <entry key="scalingPercent" value="52" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -107,7 +109,8 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="color" value="000000" />
+                                                <entry key="color" value="00f30c" />
+                                                <entry key="text" value="PHP" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -118,12 +121,20 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="color" value="000000" />
+                                                <entry key="color" value="00f30c" />
+                                                <entry key="text" value="PHP" />
                                               </map>
                                             </option>
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="backgroundAssetType" value="COLOR" />
+                                      <entry key="backgroundColor" value="0f758e" />
+                                      <entry key="outputName" value="ic_launcher_php" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -308,11 +319,6 @@
                                 </PersistentState>
                               </value>
                             </entry>
-                          </map>
-                        </option>
-                        <option name="values">
-                          <map>
-                            <entry key="outputIconType" value="NOTIFICATION" />
                           </map>
                         </option>
                       </PersistentState>

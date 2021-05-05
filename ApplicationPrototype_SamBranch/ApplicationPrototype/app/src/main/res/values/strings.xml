@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PHP Partner App Prototype</string>
+    <string name="app_name">PHP Controller App</string>
     <string name="version">Version 1.0</string>
     <string name="device_pairing">Device Pairing</string>
     <string name="pre_made_grips">Grips</string>

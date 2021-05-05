@@ -1082,6 +1082,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_php_background
 color lightBlueGray
 color material_blue_grey_800
 color material_blue_grey_900
@@ -1737,6 +1738,7 @@ drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_launcher_php_foreground
 drawable ic_menu_camera
 drawable ic_menu_gallery
 drawable ic_menu_manage
@@ -2468,6 +2470,9 @@ menu access_settings_menu
 menu device_control_menu
 menu nav_menu
 mipmap ic_launcher
+mipmap ic_launcher_php
+mipmap ic_launcher_php_foreground
+mipmap ic_launcher_php_round
 mipmap ic_launcher_round
 navigation nav_graph
 plurals mtrl_badge_content_description
