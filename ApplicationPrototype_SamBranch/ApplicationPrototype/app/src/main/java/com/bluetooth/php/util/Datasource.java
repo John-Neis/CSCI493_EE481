@@ -54,7 +54,7 @@ public class Datasource {
         String command = "";
         switch(letter){
             case "A":
-                command = "251 2 2000 2000 2 1000";
+                command = "251 2 2000 2000 2 100";
                 break;
             case "B":
                 command = "251 2 1000 1000 2 100";
@@ -90,13 +90,13 @@ public class Datasource {
                 command = "012";
                 break;
             case "M":
-                command = "013";
+                command = "251 2 2000 2000 2 100";
                 break;
             case "N":
-                command = "014";
+                command = "251 2 2000 2000 2 100";
                 break;
             case "O":
-                command = "015";
+                command = "251 2 2000 2000 2 100";
                 break;
             case "P":
                 command = "016";
@@ -117,10 +117,10 @@ public class Datasource {
                 command = "021";
                 break;
             case "V":
-                command = "022";
+                command = "251 2 2000 2000 2 100";
                 break;
             case "W":
-                command = "023";
+                command = "251 2 2000 1000 2 100";
                 break;
             case "X":
                 command = "024";
